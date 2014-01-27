@@ -1,8 +1,7 @@
-
 Kay Warrie
 ==========
 
-![](images/Ethiopie_kay.jpg)
+![](images/Ethiopie_kay.jpg "Voor de bet giorgis in Ethiopie")
 
 Over mij
 --------
@@ -36,3 +35,9 @@ Met deze mobiele site (geoptimaliseerd voor smartphones) kunt u zeer eenvoudig e
 Met één klik krijgt u meer informatie (adres, foto, link) over het item.
 
 [http://opendata.antwerpen.be/apps/open-data-geoviewer](http://opendata.antwerpen.be/apps/open-data-geoviewer)
+
+
+Professioneel
+-------------
+
+TODO
