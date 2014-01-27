@@ -1,8 +1,15 @@
-
 Geopunt4Qgis
 ============
 
 ![Geopunt voor QGIS](images/logogeopunt4Q.png "Geopunt voor QGIS")
+ 
+Functies
+--------
+
+  * <a href="http://warrieka.github.io/index.html#!geopuntAddress.md" ><img src="images/geopuntAddressSmall.png" /> Zoek een Adres</a> 
+  * <a href="http://warrieka.github.io/index.html#!geopuntReverse.md" ><img src="images/geopuntReverseSmall.png" /> Prik een Adres op kaart</a>
+  * <a href="http://warrieka.github.io/index.html#!geopuntBatchgeocode.md" ><img src="images/geopuntBatchgeocodeSmall.png" /> CSV-adresbestanden geocoderen</a>
+  * <a href="http://warrieka.github.io/index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Zoek een Plaats - interesse punt</a>
  
 Systeem vereisten
 -----------------
@@ -38,15 +45,6 @@ Use cases
 - De gebruiker kan een "tekst" zoekopdracht in voeren en indien beschikbaar, ook andere zoekopties toevoegen zoals een geografisch gebied.
 - De gebruiker krijgt een lijst met resultaten voor de zoekopdracht en kan zoomen op een ​selectie van deze lijst, om te kunnen beoordelen of de variabele de gewenste data is.
 - De gebruiker kan het juiste zoekresultaat selecteren in het dialoogvenster en toevoegen in kaart.
-
-Functies
---------
-
-  * <a href="http://warrieka.github.io/index.html#!geopuntAddress.md" ><img src="images/geopuntAddressSmall.png" /> Zoek een Adres</a> 
-  * <a href="http://warrieka.github.io/index.html#!geopuntReverse.md" ><img src="images/geopuntReverseSmall.png" /> Prik een Adres op kaart</a>
-  * <a href="http://warrieka.github.io/index.html#!geopuntBatchgeocode.md" ><img src="images/geopuntBatchgeocodeSmall.png" /> CSV-adresbestanden geocoderen</a>
-  * <a href="http://warrieka.github.io/index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Zoek een Plaats - interesse punt</a>
-
 
 Wat is Geopunt ?
 --------------
