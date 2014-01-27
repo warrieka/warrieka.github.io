@@ -25,3 +25,5 @@ Bij rode rijen werden geen kanidaten gevonden. Je kan proberen door de tekst in 
 #### Toevoegen aan de kaart
 
 Als je alle adressen die wenst toe te voegen hebt gevalideerd, kan je deze toevoegen via de knop **Voeg alle valide adressen toe aan de kaart**. De resulteerende kaartlaag bevat alle kolommen van de CSV plus gevalideerde adressen.
+
+![](images/geopunt4qgisBatchGeocode.gif)

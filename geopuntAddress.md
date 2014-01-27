@@ -7,3 +7,5 @@ Op basis van een input string wordt gezocht naar een adres in CRAB. Je kiest de 
 Je kan het gewenste adres selecteren door erop te klikken. Als je dubbel klikt op een adres of als je klikt op de knop **zoom naar** zoom je naar het adres. Met de knop **Toevoegen aan kaart** kan je het adres toevoegen als laag aan de kaart. Deze laag kan je gebruiken in analyses of voor cartografie. 
 
 Als je meerdere adressen toevoegt komen die in dezelfde laag terrecht. De laag bevat een attribuut '*type*' dat aangeeft hoe de locatie in crab bepaald werd en dus een indicatie geeft van de nauwkeurigheid.
+
+![](images/geopunt4qgisAdres.gif)  
