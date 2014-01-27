@@ -2,7 +2,7 @@ CSV-adresbestanden geocoderen
 =============================
 
 ![](images/geopuntBatchgeocode.png)
-Met deze tool kan je een CSV-bestand geocoderen. CSV: Comma Seperated Values, een tekstbestand waarin de waarden door een teken (de separator) meestal een comma of puntcomma gescheiden zijn.
+Met deze tool kan je een CSV-bestand geocoderen. CSV: Comma Seperated Values, een tekstbestand waarin de waarden door een teken (de separator) meestal een comma of puntcomma gescheiden zijn. Als je CSV-bestand adres gegevens bevat kan je deze met deze tool op de kaart weergeven met hun correct crab-adres.
 
 #### Data inladen
 
