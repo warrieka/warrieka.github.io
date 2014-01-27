@@ -21,10 +21,10 @@ Persoonlijke Projecten
 
 - [Meer info](README_NL.md) 
 - [Op GitHub](http://github.com/warrieka/geopunt4Qgis)
+- [In de Quantum GIS Plugin Repository](http://plugins.qgis.org/plugins/geopunt4Qgis/)
 
 Meer info over geopunt vind je hier: [http://www.geopunt.be/over-geopunt](http://www.geopunt.be/over-geopunt)
 
-<br/>
 
 #### open-data-geoviewer
 

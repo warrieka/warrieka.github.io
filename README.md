@@ -1,7 +1,7 @@
 Geopunt4Qgis
 ============
 
-![Geopunt voor QGIS](images/logogeopunt4Q.png "Geopunt voor QGIS")
+![Geopunt for QGIS](images/logogeopunt4Q.png "Geopunt for QGIS")
 
 Functions
 --------
@@ -28,7 +28,7 @@ The Flemish government Geographical Portal Geopunt offers several web-services t
 
 The mapping services are based on the OGC open standard WMS or WMTS and can be added to to QGIS easily. These services can be found through the [metadacenter](https://metadata.geopunt.be/zoekdienst/apps/tabsearch/index.html).
 
-But some services are not standardized because there is no widely used open standard. These public webservices are  composed with a REST-full API, this easier to use for programmers then OGC-services. But because they are not standardized, they can't be used directly by desttop software.
+But some services are not standardized because there is no widely used open standard. These public web-services are  composed with a REST-full API, this easier to use for programmers then OGC-services. But because they are not standardized, they can't be used directly by desktop software.
 
 These include:
 
@@ -36,7 +36,7 @@ These include:
 - **Location search** based on databases joined to the CRAB database, like the locations of the schools in Flanders.
 - **Traffic obstruction information** from the [GIPOD](http://gipod.api.agiv.be/#!index.md) public works and manifestation database.
 
-The goal of this project is to make these webservices available to QGIS-users, so they can be uses for creating print-maps and for doing research and analyses.
+The goal of this project is to make these web-services available to QGIS-users, so they can be uses for creating print-maps and for doing research and analyses.
 
 Use cases:
 ----
@@ -54,7 +54,7 @@ What is Geopunt ?
 
 All components (metadata catalog , download application, data and network services) are directly integrated. The geoportal is the Flemish node in a European spatial data infrastructure and meets the requirements of the [European INSPIRE directive](http://inspire-geoportal.ec.europa.eu/).
 
-Geopunt is the website of the partnership for geographic information within the Flemish government, GDI Flanders (GDI = Spatial Data Infrastructures). The Flemish Agency for Geographical Information [(AGIV)](http://www.agiv.be/gis/) is responsible for organising and maintaining geopunt.
+Geopunt is the website of the partnership for geographic information within the Flemish government, GDI Flanders (GDI = Spatial Data Infrastructures). The Flemish Agency for Geographical Information [(AGIV)](http://www.agiv.be/gis/) is responsible for organizing and maintaining geopunt.
 
 Sources: 
 
