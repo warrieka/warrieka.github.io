@@ -13,7 +13,7 @@ Naast geohacking en kaartjes maken, houd ik van lezen, film kijken en reizen.
  
 
 Persoonlijke Projecten
----------
+----------------------
 
 #### geopunt4Qgis
 
@@ -24,7 +24,7 @@ Persoonlijke Projecten
 - [In de Quantum GIS Plugin Repository](http://plugins.qgis.org/plugins/geopunt4Qgis/)
 
 Meer info over geopunt vind je hier: [http://www.geopunt.be/over-geopunt](http://www.geopunt.be/over-geopunt)
-
+<br/>
 
 #### open-data-geoviewer
 
@@ -35,7 +35,7 @@ Met deze mobiele site (geoptimaliseerd voor smartphones) kunt u zeer eenvoudig e
 Met één klik krijgt u meer informatie (adres, foto, link) over het item.
 
 [http://opendata.antwerpen.be/apps/open-data-geoviewer](http://opendata.antwerpen.be/apps/open-data-geoviewer)
-
+<br/>
 
 Professioneel
 -------------
