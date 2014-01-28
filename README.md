@@ -7,7 +7,7 @@ Functions
 --------
 
   * <a href="http://warrieka.github.io/#!geopuntAddress.md" ><img src="images/geopuntAddressSmall.png" /> search an  address</a> 
-  * <a href="http://warrieka.github.io/#!geopuntReverse.md" ><img src="images/geopuntReverseSmall.png" />Click an address on the map</a>
+  * <a href="http://warrieka.github.io/#!geopuntReverse.md" ><img src="images/geopuntReverseSmall.png" /> click an address on the map</a>
   * <a href="http://warrieka.github.io/#!geopuntBatchgeocode.md" ><img src="images/geopuntBatchgeocodeSmall.png" />batch geocode CSV-files </a>
   * <a href="http://warrieka.github.io/#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" />search for poi</a>
 
@@ -56,7 +56,18 @@ All components (metadata catalog , download application, data and network servic
 
 Geopunt is the website of the partnership for geographic information within the Flemish government, GDI Flanders (GDI = Spatial Data Infrastructures). The Flemish Agency for Geographical Information [(AGIV)](http://www.agiv.be/gis/) is responsible for organizing and maintaining geopunt.
 
-Sources: 
+About the author
+----------------
+
+My name is **Kay Warrie**. I am geospatial data analyst and developer from Balgium. 
+My current employer is the research department of the city of Antwerp. 
+Professionaly I work on webmapping with arcgis-server or Mapbox Tilemill, maintain INSPIRE-compliant metadata, and do all kinds of GIS analyses are related on city data. Most analyses are related to adressing, spatial relationships,  proximety analyses (routing, service area's etc.) for environmental impact studies, zoning or construction permits.
+
+[Contact me](mailto:kaywarrie@gmail.com)
+
+[More about me](http://warrieka.github.io/#!aboutMe.md)
+
+#### Sources:
 
 - *[http://www.geopunt.be](http://www.geopunt.be/over-geopunt)* 
 - *[http://gditestbed.agiv.be/](http://gditestbed.agiv.be/)*
