@@ -61,7 +61,7 @@ About the author
 
 My name is **Kay Warrie**. I am geospatial data analyst and developer from Belgium. 
 My current employer is the research department of the city of Antwerp. 
-Professionaly I work on webmapping with ESRI arcgis-server or Mapbox Tilemill. I also maintain INSPIRE-compliant metadata, and do all kinds of GIS analyses are related on city data. Most analyses are related to adressing-geocoding, spatial relationships,  proximity analyses (routing, service area's etc.) for environmental impact studies, zoning or construction permits.
+Professionaly I work on webmapping with ESRI arcgis-server or Mapbox Tilemill. I also maintain INSPIRE-compliant metadata as a part of the flemish Geodata Infrastruce (GDI). But above all I do all kinds of GIS analyses on city data. Most analyses are related to adressing-geocoding, spatial relationships,  proximity analyses (routing, service area's etc.) for environmental impact studies, zoning or construction permits.
 
 [Contact me](mailto:kaywarrie@gmail.com)
 

@@ -40,4 +40,5 @@ Met één klik krijgt u meer informatie (adres, foto, link) over het item.
 Professioneel
 -------------
 
-TODO
+Mijn huidige werkgever is de studiedienst van stad Antwerpen, waar ik werkzaam ben als geodata-analyst en occasioneel programmeur.
+Professioneel werk ik op webmapping met ESRI arcgis-server of Mapbox Tilemill. Ik beheer ook INSPIRE-compliant metadata in kader van GDI, Voor de rest doe ik voorl allerlei GIS analyses op data van het Stad. De meeste analyses zijn gerelateerd aan adressering-geocoding, ruimtelijke relaties,  nabijheids analyses (routing, service area's ed.) voor onder andere MER studies, ruimtelijke ordening or bouwvergunningen.
