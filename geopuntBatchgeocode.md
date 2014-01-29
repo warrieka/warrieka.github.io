@@ -8,7 +8,7 @@ Met deze tool kan je een CSV-bestand geocoderen. CSV: Comma Seperated Values, ee
 
 Voor je een tekstbestand inlaad moet je de separator ingeven. Je kan ook de encoding instellen: 'utf-8' of 'ansi'. Dit is de set met speciale tekens die gebruikt worden. De meeste software in Vlaanderen gebruikt de 'utf-8' tekenset, maar als je een error krijgt bij inladen of sommige speciale tekens ( é, $, €, ...) worden niet correct weergeven, dan moet nog eens proberen met de ansi-tekenset.
 
-Als je data correct ingeladen hebt kan je de adres-kolom instellen. Als je huisnummer of gemeente (of postcode) in een andere kolom staan met je die  ook opgeven.
+Als je data correct ingeladen hebt kan je de adres-kolom instellen. Als je huisnummer of gemeente (of postcode) in een andere kolom staan met je die ook opgeven.
 
 #### Data Valideren
 
@@ -18,9 +18,9 @@ Een beter systeem is de tweede knop te gebruiken (je kan die oproepen door recht
 
 #### Data controleren
 
-Als een rij in <span style="background-color:#CCFFCC">groen</span> wordt weergeven is er slechts 1 resultaat gevonden. <span style="background-color:#FFFFC8"> Gele</span> rijen bevatten meerdere opties voor valide adressen, selecteer de juiste uit de keuzelijst.  Je kan de ligging van een adres inspecteren met de derde knop (de verrekijker).
+Als een rij in groen wordt weergeven is er slechts 1 resultaat gevonden. Gele rijen bevatten meerdere opties voor valide adressen, selecteer de juiste uit de keuzelijst.  Je kan de ligging van een adres inspecteren met de derde knop (de verrekijker).
 
-Bij  <span style="background-color:#FFBEBE">rode</span> rijen werden geen resultaten gevonden. Je kan proberen door de tekst in de tabel aan te passen en opnieuw te valideren, een correct adres te bekomen. Als je geen correct resultaat vindt, kan je ook de locatie op de kaart prikken met de vierde knop (het vlagje). 
+Bij rode rijen werden geen resultaten gevonden. Je kan proberen door de tekst in de tabel aan te passen en opnieuw te valideren, een correct adres te bekomen. Als je geen correct resultaat vindt, kan je ook de locatie op de kaart prikken met de vierde knop (het vlagje). 
 
 #### Toevoegen aan de kaart
 
