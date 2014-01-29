@@ -4,6 +4,9 @@ CSV-adresbestanden geocoderen
 ![](images/geopuntBatchgeocode.png)
 Met deze tool kan je een CSV-bestand geocoderen. CSV: Comma Seperated Values, een tekstbestand waarin de waarden door een teken (de separator) meestal een komma of puntkomma gescheiden zijn. Als je CSV-bestand adres gegevens bevat kan je deze met deze tool op de kaart weergeven met hun correct crab-adres.
 
+Deze tool is niet bedoeld om zeer grote bestanden te verwerken. Bestanden met meer dan enkele honderden records gaan zeer veel netwerktraffiek veroorzaken en kunnen dus belastend zijn voor het AGIV. Om de servers van agiv niet te zwaar te belasten is de toepassing beperkt tot een bepaald aantal rijen. 
+Deelnemers van GDI-vlaanderen kunnen gebruik maken van Crab Match om grote bestanden te valideren en geocoderen. Dit is een dienst van het AGIV, die je kan aanspreken via LARA. [Meer info](https://help.agiv.be/Categories/Details/213-Crab_Match_valideer_en_verrijk_je_adressenbestand)
+
 #### Data inladen
 
 Voor je een tekstbestand inlaad moet je de separator ingeven. Je kan ook de encoding instellen: 'utf-8' of 'ansi'. Dit is de set met speciale tekens die gebruikt worden. De meeste software in Vlaanderen gebruikt de 'utf-8' tekenset, maar als je een error krijgt bij inladen of sommige speciale tekens ( é, $, €, ...) worden niet correct weergeven, dan moet nog eens proberen met de ansi-tekenset.
