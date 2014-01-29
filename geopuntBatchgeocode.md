@@ -18,9 +18,9 @@ Een beter systeem is de tweede knop te gebruiken (je kan die oproepen door recht
 
 #### Data controleren
 
-Als een rij in groen wordt weergeven is er slechts 1 resultaat gevonden. Gele rijen bevatten meerdere opties voor valide adressen, selecteer de juiste uit de keuzelijst.  Je kan de ligging van een adres inspecteren met de derde knop (de verrekijker).
+Als een rij in <span style="background-color:#CCFFCC">groen</span> wordt weergeven is er slechts 1 resultaat gevonden. <span style="background-color:#FFFFC8"> Gele</span> rijen bevatten meerdere opties voor valide adressen, selecteer de juiste uit de keuzelijst.  Je kan de ligging van een adres inspecteren met de derde knop (de verrekijker).
 
-Bij rode rijen werden geen resultaten gevonden. Je kan proberen door de tekst in de tabel aan te passen en opnieuw te valideren, een correct adres te bekomen. Als je geen correct resultaat vindt, kan je ook de locatie op de kaart prikken met de vierde knop (het vlagje). 
+Bij  <span style="background-color:#FFBEBE">rode</span> rijen werden geen resultaten gevonden. Je kan proberen door de tekst in de tabel aan te passen en opnieuw te valideren, een correct adres te bekomen. Als je geen correct resultaat vindt, kan je ook de locatie op de kaart prikken met de vierde knop (het vlagje). 
 
 #### Toevoegen aan de kaart
 
