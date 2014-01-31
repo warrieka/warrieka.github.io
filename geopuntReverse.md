@@ -7,6 +7,8 @@ Het gevonden adres wordt weergegeven in een blauwe balk bovenaan de kaart. Met d
 
 Als je meerdere adressen toevoegt komen die in dezelfde laag terecht. De laag bevat een attribuut '*type*' dat aangeeft hoe de locatie in crab bepaald werd en dus een indicatie geeft van de nauwkeurigheid.
 
+Via instellingen (*op menubalk: plugins/geopunt4QGIS/instellingen*) kan je instellen of er wordt opgeslagen naar een tijdelijke laag of een permanent bestand. Let op een tijdelijke laag ben je kwijt als je QGIS afsluit.
+
 ![](images/geopunt4qgisReverse.gif "Prik een Adres op kaart")
 
 [Foute adressen kunt u melden via LARA (enkel voor GDI-Vlaanderen)](http://crab.agiv.be/Lara) 
