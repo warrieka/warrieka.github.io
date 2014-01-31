@@ -13,6 +13,7 @@
   * <a href="index.html#!geopuntReverse.md" ><img src="images/geopuntReverseSmall.png" /> Prik een Adres op kaart</a>
   * <a href="index.html#!geopuntBatchgeocode.md" ><img src="images/geopuntBatchgeocodeSmall.png" /> CSV-adresbestanden geocoderen</a>
   * <a href="index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Zoek een Plaats - interesse punt</a>
+  * <a href="index.html#!geopuntGIPOD.md" ><img src="geopuntGIPODsmall.png" /> GIPOD</a>
 
 [open-data-geoviewer](http://opendata.antwerpen.be/apps/open-data-geoviewer)
 
