@@ -2,17 +2,21 @@ GIPOD
 =====
 
 ![](images/geopuntGIPOD.png)
-
 Tool om [GIPOD](http://www.agiv.be/gis/diensten/?catid=158) data te importeren. Via [Hinder op kaart](http://www.geopunt.be/hinder-in-kaart) of de [publieke webservice](http://gipod.api.agiv.be/) kan iedereen de data raadplegen. Deze tool gaat deze data ophalen via de publieke webservice voor gebruik in analyses en cartografie. 
 
-Je kan kiezen uit verschillende filter opties:
+Je kan kiezen uit verschillende filter opties, selecteer uit keuzelijst:
 
 - eigenaar
 - stad
 - provincie
-- type manifestatie
-- startdatum
-- einddatum
+- type manifestatie(enkel bij manifestaties)
+- startdatum (mininaal huidige datum)
+- einddatum (altijd groter dan startdatum)
+- beperken tot huidig kaart extend
+
+Let op voor conficten, provincie "Antwerpen" en stad "Gent" zullen geen resultaat opleveren.
+
+Je kan opslaan naar verschillende geografische formaten zoals shapefile en KML (google earth) en naar CSV-bestanden die je kan openen in excel of een andere spreadsheet.
 
 ####Wat is GIPOD
 
