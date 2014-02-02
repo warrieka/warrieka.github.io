@@ -38,7 +38,7 @@ Opleidingen
 ----------
  
 - **Diverse interne en bedrijfsopleidingen:** 
-    ArcGIS Server, Spatial Analyst, Python, ArcObjects (ESRI nl), Remote Sensing (OU) , GRB, CRAB, Metadata (AGIV) ...
+    ArcGIS Server, ArcGIS Online, Spatial Analyst, Python, ArcObjects (ESRI nl), GRB, CRAB, Metadata (AGIV) ...
 - **2005-2007** 
     Erasmus Hogeschool Brussel:  Bachelor Milieuzorg 
     Geslaagd met onderscheiding 
@@ -46,6 +46,3 @@ Opleidingen
 - **2007-2008** 
     Open Universiteit Nederland
     Propedeuse, Remote sensing, GIS
-- **2002-2004** 
-    Katholieke Universiteit Leuven: 1ste kan Geologie 
-    Geslaagd in 1ste Kandidatuur, niet geslaagt in 2de Kandidatuur 
