@@ -28,7 +28,7 @@ Bij rode rijen werden geen resultaten gevonden. Je kan proberen door de tekst in
 #### Toevoegen aan de kaart
 
 Als je alle adressen die wenst toe te voegen hebt gevalideerd, kan je deze toevoegen via de knop **Voeg alle valide adressen toe aan de kaart**. De resulterende kaartlaag bevat alle kolommen van de CSV plus gevalideerde adressen.
-Via instellingen (*op menubalk: plugins/geopunt4QGIS/instellingen*) kan je instellen of er wordt opgeslagen naar een tijdelijke laag of een permanent bestand. Let op een tijdelijke laag ben je kwijt als je QGIS afsluit.
+Via instellingen (*op menubalk: plugins/geopunt4QGIS/instellingen*) kan je instellen of er wordt opgeslagen naar een tijdelijke laag of een permanent bestand (shapefile of spatialite). Let op een tijdelijke laag ben je kwijt als je QGIS afsluit.
 
 ![](images/geopunt4qgisBatchGeocode.gif "CSV-adresbestanden geocoderen")
 
