@@ -43,6 +43,6 @@ Opleidingen
     Erasmus Hogeschool Brussel:  Bachelor Milieuzorg 
     Geslaagd met onderscheiding 
     Inclusief Milieucoördinator B 
-- **2007-2008** 
+- **2007-2009** 
     Open Universiteit Nederland
     Propedeuse, Remote sensing, GIS
