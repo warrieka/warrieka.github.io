@@ -69,6 +69,12 @@ Professioneel werk ik op webmapping met ESRI arcgis-server of Mapbox Tilemill. I
 
 [Meer over mij](http://warrieka.github.io/#!aboutMe.md)
 
+#### Bronnen:
+
+- *[http://www.geopunt.be](http://www.geopunt.be/over-geopunt)* 
+- *[http://gditestbed.agiv.be/](http://gditestbed.agiv.be/)*
+- *[https://www.agiv.be/](https://www.agiv.be/)*
+
 Wil je mij steunen, maak een donatie:
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -77,11 +83,3 @@ Wil je mij steunen, maak een donatie:
 <input type="image" src="https://www.paypalobjects.com/nl_NL/BE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, de veilige en complete manier van online betalen.">
 <img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1">
 </form>
-
-
-#### Bronnen:
-
-- *[http://www.geopunt.be](http://www.geopunt.be/over-geopunt)* 
-- *[http://gditestbed.agiv.be/](http://gditestbed.agiv.be/)*
-- *[https://www.agiv.be/](https://www.agiv.be/)*
-
