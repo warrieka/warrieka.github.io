@@ -61,14 +61,13 @@ function init() {
             });
 
     grb_grijs.addTo(map);   // grb_grijs is default basemap
-    antw.addTo(map);        // ovverlay
+    antw.addTo(map);        // overlay
 
     baseMaps = {
-            "GRB": grb,
-            "GBB grijs": grb_grijs,
-	    "OSM-Kaart": osm,
+            "GRB (kleur)": grb,
+            "GRB (grijs)": grb_grijs,
+	    "Open Street Map": osm,
 	    "Luchtfoto": lufo,
-	    "Antwerpen": antw
 	};
 
 /*features*/
