@@ -30,21 +30,27 @@ function init() {
 		});
 
 /*basemaps*/
+    var grb_grijs = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/grb_bsk_gr@GoogleMapsVL/{z}/{x}/{y}.png", {
+        minZoom: 6,
+        maxZoom: 20,
+        tms: true
+    });
+
     var grb = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/grb_bsk@GoogleMapsVL/{z}/{x}/{y}.png", {
         minZoom: 6,
         maxZoom: 20,
         tms: true
     });
 
-	var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {})
+    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {})
 	
-	var lufo  = L.tileLayer( "http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/orthoklm@GoogleMapsVL/{z}/{x}/{y}.png" , {
+    var lufo  = L.tileLayer( "http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/orthoklm@GoogleMapsVL/{z}/{x}/{y}.png" , {
 		minZoom: 6,
 		maxZoom: 20,
 		tms: true
 	});
 
-var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap/MapServer", {
+    var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap/MapServer", {
             minZoom: 11,
             maxZoom: 19,
             bounds: [
@@ -53,10 +59,12 @@ var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/
                     ]
             });
 
-    grb.addTo(map);   //antgrey is default
+    grb_grijs.addTo(map);   // grb_grijs is default basemap
+    antw.addTo(map);        // ovverlay
 
     baseMaps = {
-        "GRB": grb,
+            "GRB": grb,
+            "GBB grijs": grb_grijs,
 	    "OSM-Kaart": osm,
 	    "Luchtfoto": lufo,
 	    "Antwerpen": antw
@@ -110,7 +118,7 @@ var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/
 /*wigets*/
 	 addlegende();
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
-	 L.control.layers(baseMaps, {}).addTo(map);
+	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
 	 map.on('locationfound', onLocationFound);
              map.locate();
