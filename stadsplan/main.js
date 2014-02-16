@@ -51,6 +51,7 @@ function init() {
 	});
 
     var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap/MapServer", {
+            opacity:  0.8,
             minZoom: 11,
             maxZoom: 19,
             bounds: [
