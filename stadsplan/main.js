@@ -15,7 +15,7 @@ function init() {
     var disTemplate = "<h3>{naam}</h3><strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
     var disIcon = new L.MakiMarkers.icon({ icon: "town-hall", color: "#F4FA58", size: "m" });
     var wcTemplate =  "<h3>{OMSCHRIJVING}</h3><strong>Type:</strong> {CATEGORIE}<br/> <strong>Voor:</strong> {DOELGROEP}<br/>" 
-                      + "<strong>luiertafel: </strong> {LUIERTAFEL} <br/><strong>minder validen: </strong> {INTEGRAAL_TOEGANKELIJK} <br/>" 
+                      + "<strong>Luiertafel: </strong> {LUIERTAFEL} <br/><strong>Minder validen: </strong> {INTEGRAAL_TOEGANKELIJK} <br/>" 
                       + "<strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
     var wcIcon = new L.MakiMarkers.icon({ icon: "toilets", color: "#0040FF", size: "m" });
     var sportTemplate = "<h3>{naam}</h3><strong>Type:</strong> {subtype}  <br/> <strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
@@ -45,7 +45,6 @@ function init() {
 	});
 
 var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap/MapServer", {
-            errorTileUrl: '' ,
             minZoom: 11,
             maxZoom: 19,
             bounds: [
@@ -131,12 +130,12 @@ function makeCluster(url, template, icon, radius) {
                 color: color
             },
             iconCreateFunction: function (markers) {
-                return icon                            // L.MakiMarkers.icon({ icon: "pitch", color: "#BDBDBD", size: "m" })
+                return icon                            
             }
         }),
 
         createMarker: function (feature, latlng) {
-            return L.marker(latlng, { icon: icon });   // L.MakiMarkers.icon({ icon: "pitch", color: "#BDBDBD", size: "m" })
+            return L.marker(latlng, { icon: icon }); 
         },
 
         onEachMarker: function (feature, layer) {
