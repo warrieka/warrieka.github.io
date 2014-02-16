@@ -15,6 +15,8 @@
   * <a href="index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Zoek een Plaats - interesse punt</a>
   * <a href="index.html#!geopuntGIPOD.md" ><img src="images/geopuntGIPODsmall.png" /> GIPOD</a>
 
+[Kaart Stad Antwerpen](stadsplan/index.html)
+
 [open-data-geoviewer](http://opendata.antwerpen.be/apps/open-data-geoviewer)
 
 [over mij](aboutMe.md)
