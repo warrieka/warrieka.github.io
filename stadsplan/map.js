@@ -25,7 +25,7 @@ function init() {
 
 	map = L.map('map' , {
 		attributionControl: true,
-		zoomControl: false ,
+		zoomControl: true ,
 		center: [51.26299, 4.373], zoom: 11
 		});
 
@@ -120,11 +120,37 @@ function init() {
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
 	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
+        map.addControl( new L.Control.Search({
+                        url: 'http://crab.agiv.be/geolocation/geolocation.svc/Location?c=5&q={s}',
+                        jsonpParam: 'callback',                  //callback param
+                        filterJSON: filterJSONCall,              //callback that remaps json
+                        text: 'Straat (nummer), Gemeente',		 //placeholder value	
+		        textCancel: 'Annuleren',		 //title in cancel button
+		        textErr: 'Adres kon niet worden gevonden',	//error message
+			zoom: 15,
+                        minLength: 2,
+                        position:'topright'
+                    }) );
+/*geolocation*/
 	 map.on('locationfound', onLocationFound);
              map.locate();
 	}
+        
+/*callback that remaps json*/
+function filterJSONCall(rawjson) {	
+                var LocationResult = rawjson.LocationResult;
+                var formattedJson = {};
+		var key = []; loc = [];
+		for(var i in LocationResult )
+		{
+			key = LocationResult[i].FormattedAddress;	
+			loc = L.latLng( LocationResult[i].Location.Lat_WGS84, LocationResult[i].Location.Lon_WGS84 );
+			formattedJson[ key ]= loc;	//key,value format
+		}
+		return formattedJson;
+	}
 
-
+/*clustermarker*/
 function makeCluster(url, template, icon, radius) {
 	var color = "#E6E6E6"
     if (icon.options.color) {
@@ -159,6 +185,7 @@ function makeCluster(url, template, icon, radius) {
     return cluster
 }
 
+/*helper function to find centroid of polygon*/
 function polygonCentroid(poly) {
     var outerring = poly.coordinates[0];
     var xSum = 0;
@@ -175,6 +202,7 @@ function polygonCentroid(poly) {
     return averageXY
     }
 
+/*use geolocation*/
 function onLocationFound(e) {
 		if ( e.accuracy < 2500 ) {
 	       var radius =   e.accuracy / 2 ;

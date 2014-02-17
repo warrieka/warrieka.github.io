@@ -1,20 +1,23 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta http-equiv="content-language" content="nl" /> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="author" content="Kay Warrie" />
-		<meta name="keywords" content=""/>
-		<meta name="description" content="" />
-		<link href="ico/osm.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
- 		<link href="ico/apple-osm_ico.png" rel="apple-touch-icon" type="image/png" />
-		
+        <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-language" content="nl" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="author" content="Kay Warrie" />
+        <meta name="keywords" content=""/>
+        <meta name="description" content="" />
+        <link href="ico/osm.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <link href="ico/apple-osm_ico.png" rel="apple-touch-icon" type="image/png" />
+
         <title>Stadskaart Antwerpen</title>
- 		<!--load style sheets-->
- 		<link rel="stylesheet" href="kaartstijl.css"  />
-	    <link rel="stylesheet" href="MarkerCluster.css" />
-	    <link rel="stylesheet" href="MarkerCluster.Default.css" />
+        <!--load style sheets-->
+        <link rel="stylesheet" href="kaartstijl.css"  />
+        <link rel="stylesheet" href="MarkerCluster.css" />
+        <link rel="stylesheet" href="MarkerCluster.Default.css" />
+        
+        <link rel="stylesheet" href="leaflet-search.src.css"/>
+        <link rel="stylesheet" href="leaflet-search.mobile.src.css"/>
 
         <!-- Load Leaflet from their CDN -->
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
@@ -26,22 +29,26 @@
         <!--Load my own leaflet extensions-->
         <script type="text/javascript" src="Leaflet.MakiMarkers.js"></script>
         <script type="text/javascript" src="leaflet.markercluster.js"></script>
+        
+        <script type="text/javascript" src="leaflet-search.src.js"></script>
+        
         <!--Load my own js-->
-		<script type="text/javascript" src="legende.js"  ></script>
-		<script type="text/javascript" src="main.js" ></script>
-	</head> 
-	<body onload="init()" >
-		<div id="map"> 
-		<h1 id="titel" > <span> Stadskaart Antwerpen </span>  </h1>
-		<div id="zoomslider">
-			<button class="leaflet-clickable" id="zoomin" onclick="map.zoomIn()" > 
-				<img src="ico/zoom-in.png" alt="+" /> 
-			</button>
-			<button class="leaflet-clickable" id="zoomout" onclick="map.zoomOut()" >
-				<img src="ico/zoom-out.png" alt="-" />
-			</button>
-		</div>
-		</div>
-	</body>
+        <script type="text/javascript" src="legende.js"  ></script>
+        <script type="text/javascript" src="map.js" ></script>
+        </head> 
+        <body onload="init()" >
+                <div id="map"> 
+                <h1 id="titel" > <span> Stadskaart Antwerpen </span>  </h1>
+<!--                <div id="zoomslider">
+                        <button class="leaflet-clickable" id="zoomin" onclick="map.zoomIn()" > 
+                                <img src="ico/zoom-in.png" alt="+" /> 
+                        </button>
+                        <button class="leaflet-clickable" id="zoomout" onclick="map.zoomOut()" >
+                                <img src="ico/zoom-out.png" alt="-" />
+                        </button>
+                </div>-
+->
+                </div>
+        </body>
 </html>
 
