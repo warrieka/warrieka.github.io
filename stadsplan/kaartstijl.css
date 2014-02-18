@@ -87,6 +87,7 @@ body {
     background: rgba(255,255,255,0.8);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
+    z-index: 1100;
 }
 .info h4 {
     margin: 0 0 5px;
@@ -96,4 +97,31 @@ body {
 .legend {
     line-height: 18px;
     color: #555;
+    z-index: 1100;
+}
+
+.legend input[type=checkbox]
+{
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 12px;
+  
+}
+
+.legend  ::-webkit-scrollbar
+{
+  width: 8px;  /* for vertical scrollbars */
+  height: 8px; /* for horizontal scrollbars */
+}
+
+.legend  ::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.legend  ::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
 }

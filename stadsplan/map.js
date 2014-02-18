@@ -13,13 +13,16 @@ function init() {
     var culTemplate = "<h3>{naam}</h3><strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
     var culIcon = new L.MakiMarkers.icon({ icon: "theatre", color: "#FA58F4", size: "m" });
     var disTemplate = "<h3>{NAAM}</h3><strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
-    var disIcon = new L.MakiMarkers.icon({ icon: "town-hall", color: "#F4FA58", size: "m" });
+    var disIcon = new L.MakiMarkers.icon({ icon: "town-hall", color: "#FF0000", size: "m" });
     var wcTemplate =  "<h3>{OMSCHRIJVING}</h3><strong>Type:</strong> {CATEGORIE}<br/> <strong>Voor:</strong> {DOELGROEP}<br/>" 
                       + "<strong>Luiertafel: </strong> {LUIERTAFEL} <br/><strong>Minder validen: </strong> {INTEGRAAL_TOEGANKELIJK} <br/>" 
                       + "<strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
     var wcIcon = new L.MakiMarkers.icon({ icon: "toilets", color: "#0040FF", size: "m" });
-   // var sportTemplate = "<h3>{naam}</h3><strong>Type:</strong> {subtype}  <br/> <strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
-   // var sportIcon = new L.MakiMarkers.icon({ icon: "pitch", color: "#FE9A2E", size: "m" });
+    var schoolTemplate = "<h3>{NAAM}</h3> <strong>Type: </strong>{SUBTYPE} <br/>"
+    +"<strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
+    var schoolIcon = new L.MakiMarkers.icon({ icon: "school", color: "#F7FE2E", size: "m" });
+    
+    var sportTemplate = "<h3>{Naam}</h3><strong>Type:</strong> {Aard}  <br/> ";
     var parkTemplate = "<h3>{Naam}</h3>";
 
 	map = L.map('map' , {
@@ -85,21 +88,40 @@ function init() {
     var wc = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/3", wcTemplate, wcIcon, 50)
     wc.addTo(map);
     overlays["wc"] = wc
+    
+    var school = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/6", schoolTemplate, schoolIcon, 50)
+    school.addTo(map);
+    overlays["school"] = school
 
- /*   var sport = makeCluster( "http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/4",sportTemplate , sportIcon, 50)
-    sport.addTo(map);
-    overlays["sport"] = sport */
-
+    var sportStyle = {    
+        smoothFactor: 2,
+        color: "#FE9A2E",
+        weight: 1,
+        opacity: 0.65,
+    };
+    var sport = L.esri.featureLayer("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/4", {
+        style: function (feature) {
+            return sportStyle;
+        },
+        onEachFeature: function (feature, layer) {
+            var center = polygonCentroid(feature.geometry)
+            var routing= "<br/>  <a target='_blank'  href='" + googleDirUrl
+            + curXY[1] + ", " + curXY[0] + "/" + center[1] + "," + center[0] + "'> routebeschrijving</a>"
+            layer.bindPopup(L.Util.template(sportTemplate , feature.properties) + routing
+            );
+        }
+    }).addTo(map);
+    overlays["sport"] = sport
+    
     var parkStyle = {    //see: http://leafletjs.com/reference.html#path-options
         smoothFactor: 2,
         color: "#9AFE2E",
         weight: 3,
         opacity: 0.65,
-        dashArray: "3"
+        dashArray:  "5, 5"
     };
 
     var park = L.esri.featureLayer("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/5", {
-
         style: function (feature) {
             return parkStyle;
         },
@@ -107,7 +129,6 @@ function init() {
             var center = polygonCentroid(feature.geometry)
             var routing= "<br/>  <a target='_blank'  href='" + googleDirUrl
             + curXY[1] + ", " + curXY[0] + "/" + center[1] + "," + center[0] + "'> routebeschrijving</a>"
-
             layer.bindPopup(L.Util.template(parkTemplate, feature.properties) + routing
             );
         }
@@ -115,7 +136,7 @@ function init() {
     overlays["park"] = park
 
 /*wigets*/
-	 addlegende();
+	 addlegende(map);
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
 	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
