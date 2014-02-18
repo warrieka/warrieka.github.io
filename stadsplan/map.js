@@ -10,7 +10,7 @@ var baseMaps = {};
 function init() {
     var bibTemplate = "<h3>{naam}</h3><strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
     var bibIcon = new L.MakiMarkers.icon({ icon: "library", color: "#E6E6E6", size: "m" });
-    var culTemplate = "<h3>{naam}</h3><strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
+    var culTemplate = "<h3>{NAAM}</h3><strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
     var culIcon = new L.MakiMarkers.icon({ icon: "theatre", color: "#FA58F4", size: "m" });
     var disTemplate = "<h3>{naam}</h3><strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
     var disIcon = new L.MakiMarkers.icon({ icon: "town-hall", color: "#F4FA58", size: "m" });
