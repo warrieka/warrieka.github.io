@@ -18,10 +18,9 @@ function init() {
                       + "<strong>Luiertafel: </strong> {LUIERTAFEL} <br/><strong>Minder validen: </strong> {INTEGRAAL_TOEGANKELIJK} <br/>" 
                       + "<strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
     var wcIcon = new L.MakiMarkers.icon({ icon: "toilets", color: "#0040FF", size: "m" });
-    var sportTemplate = "<h3>{naam}</h3><strong>Type:</strong> {subtype}  <br/> <strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
-    var sportIcon = new L.MakiMarkers.icon({ icon: "pitch", color: "#FE9A2E", size: "m" });
-    var parkTemplate = "<h3>{naam}</h3>"
-                       + "<strong>Adres:</strong> <br/> {straat} <br/>{postcode} {gemeente}";
+   // var sportTemplate = "<h3>{naam}</h3><strong>Type:</strong> {subtype}  <br/> <strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
+   // var sportIcon = new L.MakiMarkers.icon({ icon: "pitch", color: "#FE9A2E", size: "m" });
+    var parkTemplate = "<h3>{Naam}</h3>";
 
 	map = L.map('map' , {
 		attributionControl: true,
