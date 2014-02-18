@@ -71,25 +71,25 @@ function init() {
 	};
 
 /*features*/
-    var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/AStad/FeatureServer/1", bibTemplate, bibIcon, 30)
+    var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/1", bibTemplate, bibIcon, 30)
     bib.addTo(map);
     overlays["bib"] = bib;
 
-    var cul = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/AStad/FeatureServer/1", culTemplate, culIcon, 50)
+    var cul = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/1", culTemplate, culIcon, 50)
     cul.addTo(map);
     overlays["cul"] = cul;
 
-    var dis = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/AStad/FeatureServer/2", disTemplate, disIcon, 30)
+    var dis = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/2", disTemplate, disIcon, 30)
     dis.addTo(map);
      overlays["dis"] = dis
 
-    var wc = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/AStad/FeatureServer/3", wcTemplate, wcIcon, 50)
+    var wc = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/3", wcTemplate, wcIcon, 50)
     wc.addTo(map);
     overlays["wc"] = wc
 
-    var sport = makeCluster( "http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/AStad/FeatureServer/4",sportTemplate , sportIcon, 50)
+ /*   var sport = makeCluster( "http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/4",sportTemplate , sportIcon, 50)
     sport.addTo(map);
-    overlays["sport"] = sport
+    overlays["sport"] = sport */
 
     var parkStyle = {    //see: http://leafletjs.com/reference.html#path-options
         smoothFactor: 2,
@@ -99,7 +99,7 @@ function init() {
         dashArray: "3"
     };
 
-    var park = L.esri.featureLayer("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/AStad/FeatureServer/5", {
+    var park = L.esri.featureLayer("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/5", {
 
         style: function (feature) {
             return parkStyle;
