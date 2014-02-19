@@ -68,8 +68,8 @@ function init() {
     baseMaps = {
             "GRB (kleur)": grb,
             "GRB (grijs)": grb_grijs,
-	    "Open Street Map": osm,
-	    "Luchtfoto": lufo,
+	        "Open Street Map": osm,
+	        "Luchtfoto": lufo,
 	};
 
 /*features*/
@@ -137,6 +137,11 @@ function init() {
 
 /*wigets*/
 	 addlegende(map);
+	 
+	 map.options.zoomInText = '<img src="ico/zoom-in.png" alt="+" /> '	 
+	 map.options.zoomOutText = '<img src="ico/zoom-out.png" alt="-" />'
+	 
+	 
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
 	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
