@@ -1,5 +1,4 @@
 [gimmick:theme](cyborg)
-[gimmick:ForkMeOnGitHub](http://github.com/warrieka/geopunt4Qgis)
 
 
 # Kay Warrie
