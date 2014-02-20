@@ -21,10 +21,19 @@ function init() {
     var schoolTemplate = "<h3>{NAAM}</h3> <strong>Type: </strong>{SUBTYPE} <br/>"
     +"<strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
     var schoolIcon = new L.MakiMarkers.icon({ icon: "school", color: "#F7FE2E", size: "m" });
+    var policeTemplate = "<h3>{omschrijving}</h3>"
+    +"<strong>Adres:</strong> <br/> {straatnaam} {huisnummer}<br/>{postcode} Antwerpen ";
+    var policeIcon = new L.MakiMarkers.icon({ icon: "police", color: "#0404B4", size: "m" });
+    recyclageTemplate = "<h3>{naam}</h3>"
+    +"<strong>Adres:</strong> <br/> {straat} {huisnummer}<br/>{postcode} {district} ";
+    var recyclageIcon =  new L.MakiMarkers.icon({ icon: "waste-basket", color: "#4B8A08", size: "m" });
+    glasTemplate = "<h3>{type}</h3>"
+    +"<strong>Adres:</strong> <br/> {straatnaam} {huisnummer}<br/>{postcode} Antwerpen ";
+    var glasIcon =  new L.MakiMarkers.icon({ icon: "bar", color: "#00FF00", size: "m" });
     
     var sportTemplate = "<h3>{Naam}</h3><strong>Type:</strong> {Aard}  <br/> ";
     var parkTemplate = "<h3>{Naam}</h3>";
-
+    
 	map = L.map('map' , {
 		attributionControl: true,
 		zoomControl: true ,
@@ -74,11 +83,9 @@ function init() {
 
 /*features*/
     var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/1", bibTemplate, bibIcon, 30)
-    bib.addTo(map);
     overlays["bib"] = bib;
 
     var cul = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/1", culTemplate, culIcon, 50)
-    cul.addTo(map);
     overlays["cul"] = cul;
 
     var dis = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/2", disTemplate, disIcon, 30)
@@ -86,13 +93,21 @@ function init() {
      overlays["dis"] = dis
 
     var wc = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/3", wcTemplate, wcIcon, 50)
-    wc.addTo(map);
     overlays["wc"] = wc
     
     var school = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/6", schoolTemplate, schoolIcon, 50)
-    school.addTo(map);
     overlays["school"] = school
 
+    var police = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/9", policeTemplate, policeIcon, 50)
+    overlays["police"] = police
+    
+    var recyclage = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/ArcGIS/rest/services/Astad/FeatureServer/7", recyclageTemplate, recyclageIcon, 50)
+    overlays["recyclage"] = recyclage
+
+    var glas = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/ArcGIS/rest/services/Astad/FeatureServer/8", glasTemplate, glasIcon, 50)
+    overlays["glas"] = glas
+
+  /*polygons*/  
     var sportStyle = {    
         smoothFactor: 2,
         color: "#FE9A2E",

@@ -12,18 +12,24 @@ mylegend = L.Control.extend({
 	
 	var innerHTML = '<div style="min-width:100px;" id="legendToggleInfo" onclick="toggle()" ><h4>Legende</h4>'
 	+ '<span style="position:absolute; right:5px;  top:2px;" >sluiten</span></div>';
-        innerHTML += '<form id="legendForm" style="display:block; height:270px; overflow:auto ;overflow-y:auto; overflow-x:visible">';
-        innerHTML += '<div style=" max-height:40px; overflow:hidden" > <input checked=true type="checkbox" value="bib"  onchange=legendChecked(value)> '
+        innerHTML += '<form id="legendForm" style="display:block; height:280px; overflow:auto ;overflow-y:auto; overflow-x:visible">';
+        innerHTML += '<div style=" max-height:40px; overflow:hidden" > <input type="checkbox" value="bib"  onchange=legendChecked(value)> '
         + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-library+E6E6E6.png"   style="float:left;"/> Bibliotheek </div>';
-        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input checked=true type="checkbox" value="cul"  onchange=legendChecked(value)>' 
+        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input type="checkbox" value="cul"  onchange=legendChecked(value)>' 
         + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-theatre+FA58F4.png"   style="float:left;"/> Cultuur </div>';
         innerHTML += '<div style=" max-height:40px; overflow:hidden" > <input checked=true type="checkbox" value="dis"  onchange=legendChecked(value)>'
         + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-town-hall+FF0000.png" style="float:left;"/> Stadsloket </div>';
-        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input checked=true type="checkbox" value="wc"  onchange=legendChecked(value)>'
+        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input  type="checkbox" value="wc"  onchange=legendChecked(value)>'
         + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-toilets+0040FF.png"   style="float:left;"/> Openbaar Sanitair </div>';
-        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input checked=true type="checkbox" value="school"  onchange=legendChecked(value)>' 
+        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input type="checkbox" value="school"  onchange=legendChecked(value)>' 
         + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-school+F7FE2E.png" style="float:left;"/> School </div>';
-        
+        innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input type="checkbox" value="police"  onchange=legendChecked(value)>' 
+        + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-police+0404B4.png" style="float:left;"/> Politie </div>';
+	innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input type="checkbox" value="recyclage"  onchange=legendChecked(value)>' 
+        + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-waste-basket+4B8A08.png" style="float:left;"/> Recyclagepark </div>';
+	innerHTML += '<div style=" max-height:40px; overflow:hidden" ><input type="checkbox" value="glas"  onchange=legendChecked(value)>' 
+        + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-bar+00FF00.png" style="float:left;"/> Glascontainer </div>';
+	
 	innerHTML += '<div style="height:35px; overflow:hidden">'+
         '<input checked=true type="checkbox" value="sport"  onchange=legendChecked(value) >'
         + '<span style="float:left; color:#FE9A2E; border-style:solid; '
