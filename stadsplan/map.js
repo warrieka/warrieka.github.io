@@ -69,7 +69,7 @@ function init() {
             "GRB (kleur)": grb,
             "GRB (grijs)": grb_grijs,
 	        "Open Street Map": osm,
-	        "Luchtfoto": lufo,
+	        "Luchtfoto": lufo
 	};
 
 /*features*/
@@ -97,7 +97,7 @@ function init() {
         smoothFactor: 2,
         color: "#FE9A2E",
         weight: 1,
-        opacity: 0.65,
+        opacity: 0.65
     };
     var sport = L.esri.featureLayer("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/4", {
         style: function (feature) {
@@ -141,21 +141,20 @@ function init() {
 	 map.options.zoomInText = '<img src="ico/zoom-in.png" alt="+" /> '	 
 	 map.options.zoomOutText = '<img src="ico/zoom-out.png" alt="-" />'
 	 
-	 
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
 	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
-        map.addControl( new L.Control.Search({
-                        url: 'http://crab.agiv.be/geolocation/geolocation.svc/Location?c=5&q={s}',
+     map.addControl( new L.Control.Search({
+                        url: 'http://loc.api.geopunt.be/geolocation/Location?c=5&q={s}',
                         jsonpParam: 'callback',                  //callback param
                         filterJSON: filterJSONCall,              //callback that remaps json
                         text: 'Straat (nummer), Gemeente',		 //placeholder value	
-		        textCancel: 'Annuleren',		 //title in cancel button
-		        textErr: 'Adres kon niet worden gevonden',	//error message
-			zoom: 15,
+		                textCancel: 'Annuleren',		 //title in cancel button
+		                textErr: 'Adres kon niet worden gevonden',	//error message
+			            zoom: 15,
                         minLength: 2,
                         position:'topright'
-                    }) );
+                 }) );
 /*geolocation*/
 	 map.on('locationfound', onLocationFound);
              map.locate();
