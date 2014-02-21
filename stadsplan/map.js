@@ -160,7 +160,7 @@ function init() {
 	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
      map.addControl( new L.Control.Search({
-                        url: 'http://loc.api.geopunt.be/geolocation/Location?c=5&q={s}',
+         url: 'http://crab.agiv.be/geolocation/geolocation.svc/Location?c=5&q={s}',
                         jsonpParam: 'callback',                  //callback param
                         filterJSON: filterJSONCall,              //callback that remaps json
                         text: 'Straat (nummer), Gemeente',		 //placeholder value	
