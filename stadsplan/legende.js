@@ -12,7 +12,7 @@ mylegend = L.Control.extend({
 	
 	var innerHTML = '<div style="min-width:100px;" id="legendToggleInfo" onclick="toggle()" ><h4>Legende</h4>'
 	+ '<span style="position:absolute; right:5px;  top:2px;" >sluiten</span></div>';
-	innerHTML += '<form id="legendForm" style="display:block; height:280px; overflow:auto ;overflow-y:auto; overflow-x:visible">';
+	innerHTML += '<form id="legendForm" style="display:block; max-height:390px; overflow:auto ;overflow-y:auto; overflow-x:visible">';
     /*points*/
 	innerHTML += '<label style="display: block; max-height:40px; overflow:hidden" > <input type="checkbox" value="bib"  onchange=legendChecked(value)> '
         + '<img src="https://api.tiles.mapbox.com/v3/marker/pin-m-library+E6E6E6.png"   style="float:left;"/> Bibliotheek </label>';
