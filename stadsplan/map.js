@@ -82,7 +82,7 @@ function init() {
 	};
 
 /*features*/
-    var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/1", bibTemplate, bibIcon, 30)
+    var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/0", bibTemplate, bibIcon, 30)
     overlays["bib"] = bib;
 
     var cul = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/1", culTemplate, culIcon, 50)
