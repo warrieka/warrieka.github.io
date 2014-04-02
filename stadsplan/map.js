@@ -21,7 +21,7 @@ function init() {
     var schoolTemplate = "<h3>{NAAM}</h3> <strong>Type: </strong>{SUBTYPE} <br/>"
     +"<strong>Adres:</strong> <br/> {STRAAT} {HUISNUMMER}<br/>{POSTCODE} {DISTRICT} ";
     var schoolIcon = new L.MakiMarkers.icon({ icon: "school", color: "#F7FE2E", size: "m" });
-    var policeTemplate = "<h3>{omschrijving}</h3>"
+    var policeTemplate = "<h3>{straatnaam}</h3>"
     +"<strong>Adres:</strong> <br/> {straatnaam} {huisnummer}<br/>{postcode} Antwerpen ";
     var policeIcon = new L.MakiMarkers.icon({ icon: "police", color: "#0404B4", size: "m" });
     recyclageTemplate = "<h3>{naam}</h3>"
