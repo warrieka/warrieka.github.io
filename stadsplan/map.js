@@ -159,15 +159,15 @@ function init() {
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
 	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
-	 map.addControl( new L.Control.Search({
+/*	 map.addControl( new L.Control.Search({
 	    url: 'http://nominatim.openstreetmap.org/search?format=json&q={s}',
 	    jsonpParam: 'json_callback',
 	    propertyName: 'display_name',
 	    propertyLoc: ['lat','lon']
-	}) );
+	}) );  */
 		 
-  /*   map.addControl( new L.Control.Search({
-         url: 'http://crab.agiv.be/geolocation/geolocation.svc/Location?c=5&q={s}',
+       map.addControl( new L.Control.Search({
+         url: 'http://loc.api.geopunt.be/geolocation/location?c=5&q={s}',
                         jsonpParam: 'callback',                  //callback param
                         filterJSON: filterJSONCall,              //callback that remaps json
                         text: 'Straat (nummer), Gemeente',		 //placeholder value	
@@ -176,7 +176,7 @@ function init() {
 			            zoom: 15,
                         minLength: 2,
                         position:'topright'
-                 }) ); */
+                 }) ); 
 /*geolocation*/
 	 map.on('locationfound', onLocationFound);
              map.locate();
