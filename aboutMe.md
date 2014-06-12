@@ -1,6 +1,9 @@
 Over mij
 ========
 
+Gegevens
+--------
+
 Naam: Kay Warrie
 
 OndernemeningsNummer: 0552 935 137
