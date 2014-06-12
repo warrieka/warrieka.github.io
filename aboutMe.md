@@ -5,7 +5,8 @@ Naam: Kay Warrie
 
 OndernemeningsNummer: 0552 935 137
 
-Adres: Molenstraat 18 <br/>
+Adres: 
+       Molenstraat 18
        3191 Hever <br/>
 Telefoon: 0494 47 38 00
 
