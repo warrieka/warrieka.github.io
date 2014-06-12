@@ -13,7 +13,7 @@ Adres:
        3191 Hever <br/>
 Telefoon: 0494 47 38 00
 
-[Contacteer mij](mailto:kaywarrie@gmail.com)
+Email: [kaywarrie@gmail.com](mailto:kaywarrie@gmail.com)
 
 Wie ben ik
 ----------
