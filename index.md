@@ -12,12 +12,12 @@ Naast geohacking en kaartjes maken, houd ik van lezen, film kijken en reizen.
 [Contacteer mij](mailto:kaywarrie@gmail.com)
  
 
-Opensource Projecten:
-----------------------
+Opensource Projecten
+---------------------
 
 #### geopunt4Qgis
 
-*"Geopunt voor QGIS"* is een plugin voor de [QGIS](http://www.qgis.org/) open source desktop GIS,  die toelaat op om de publieke webservices onder noemer [geopunt](http://www.geopunt.be) van het agiv (Vlaamse overheid) te bevragen en de data op slagen om in verdere analyses te gebruiken.
+*"Geopunt voor QGIS"* is een plugin voor de [QGIS](http://www.qgis.org/) open source desktop GIS,  die toelaat op om de publieke webservices onder noemer [geopunt](http://www.geopunt.be) van het agiv (Vlaamse overheid) te bevragen en de data op slagen om in verdere analyses te gebruiken. Ontwikkeld voor [het Agendschap voor Geofgrasche Informatie Vlaanderen](https://www.agiv.be/)
 
 - [Meer info](README_NL.md) 
 - [Op GitHub](http://github.com/warrieka/geopunt4Qgis)
@@ -28,14 +28,14 @@ Meer info over geopunt vind je hier: [http://www.geopunt.be/over-geopunt](http:/
 
 #### Kaart Stad Antwerpen
 
-Een interactieve kaart van antwerpen op basis van Agiv webservices:  [grb](https://www.agiv.be/producten/grb/meer-over/aan-de-slag/grb-raadpleegdiensten) voor de basiskaarten en  [crab](https://www.agiv.be/producten/crab/meer-info-over-crab/gebruik-van-het-crab/geolocation) voor zoeken op adres. En  op data van Stad Antwerpen gehost op [arcgis](http://arcgis.com). Geprogrammeerd met de  [leaflet](http://leafletjs.com/) mapping javascript API. Onwikkeld als proof of concept voor [Stadsplan voor A-stad](https://beta.antwerpen.be/stadsmap).
+Een interactieve kaart van antwerpen op basis van Agiv webservices:  [grb](https://www.agiv.be/producten/grb/meer-over/aan-de-slag/grb-raadpleegdiensten) voor de basiskaarten en  [crab](https://www.agiv.be/producten/crab/meer-info-over-crab/gebruik-van-het-crab/geolocation) voor zoeken op adres. En op data van Stad Antwerpen gehost op [arcgis](http://arcgis.com). Geprogrammeerd met de  [leaflet](http://leafletjs.com/) mapping javascript API. Onwikkeld als proof of concept voor [Stadsplan voor A-stad](https://beta.antwerpen.be/stadsmap).
 
 [Naar de App](stadsplan)
 <br/>
 
 #### open-data-geoviewer
 
-De open-data-Geoviewer is een mobile site gemaakt als demo voor de opendata-dag op 8 december 2012 in Antwerpen.
+De open-data-Geoviewer is een mobile site gemaakt als demo App voor de opendata-dag op 8 december 2012 in Antwerpen.
 
 Wilt u weten waar het dichtstbijzijnde politiekantoor is of een hondenloopzones of een papiermand?
 Met deze mobiele site (geoptimaliseerd voor smartphones) kunt u zeer eenvoudig een 20-tal verschillende soorten geografische data oproepen op een kaart (basiskaart open street map) of op een luchtfoto.
