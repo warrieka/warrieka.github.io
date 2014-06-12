@@ -6,7 +6,7 @@ Kay Warrie
 Over mij
 --------
 
-Ik ben geodata analist en occasioneel programmeur, werkzaam bij de Studiedienst van stad Antwerpen en partime als freelance GIS-consultant. 
+Ik ben geodata analist en occasioneel programmeur, werkzaam partime freelance GIS-consultant en als GIS-expert bij de Studiedienst van stad Antwerpen. 
 Naast geohacking en kaartjes maken, houd ik van lezen, film kijken en reizen.
 
 [Contacteer mij](mailto:kaywarrie@gmail.com)
@@ -50,5 +50,6 @@ Meer info:
 Professioneel
 -------------
 
-Mijn huidige werkgever is de studiedienst van stad Antwerpen, waar ik werkzaam ben als geodata-analyst en occasioneel programmeur.
-Professioneel werk ik op webmapping met ESRI arcgis-server of Mapbox Tilemill. Ik beheer ook INSPIRE-compliant metadata in kader van GDI, Voor de rest doe ik voorl allerlei GIS analyses op data van het Stad. De meeste analyses zijn gerelateerd aan adressering-geocoding, ruimtelijke relaties,  nabijheids analyses (routing, service area's ed.) voor onder andere MER studies, ruimtelijke ordening or bouwvergunningen.
+Ik werk deeltijds als Freelance GIS-consultant en in vast bij de studiedienst van stad Antwerpen, als geodata-analyst en occasioneel programmeur.
+Freelance werk ik voornamelijk op open source GIS technologie zoals QGIS en Geoserver, voorlopig nog maar bij 1 klant: het Agendschap voor Geografische Informatie Vlaanderen (AGIV).
+Bij stad Antwerpen werk ik op webmapping met ESRI arcgis-server. Ik beheer ook INSPIRE-compliant metadata in kader van GDI, Voor de rest doe ik voorl allerlei GIS analyses op data van het Stad. De meeste analyses zijn gerelateerd aan adressering-geocoding, ruimtelijke relaties,  nabijheids analyses (routing, service area's ed.) voor onder andere MER studies, ruimtelijke ordening or bouwvergunningen.
