@@ -10,7 +10,8 @@ Gegevens
 
 **Adres:** 
        Molenstraat 18
-       3191 Hever <br/>
+       3191 Hever 
+       
 **Telefoon:** 0494 47 38 00
 
 **Email:** [kaywarrie@gmail.com](mailto:kaywarrie@gmail.com)
