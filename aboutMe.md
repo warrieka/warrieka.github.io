@@ -1,21 +1,35 @@
 Over mij
 ========
 
+Naam: Kay Warrie
+OndernemeningsNummer: 0552 935 137
+
+Adres: Molenstraat 18
+       3191 Hever
+Telefoon: 0494 47 38 00
+
+[Contacteer mij](mailto:kaywarrie@gmail.com)
 
 Wie ben ik
 ----------
 
-Ik ben geodata analist en occasioneel programmeur, werkzaam bij de Studiedienst van stad Antwerpen en parttime freelance GIS-consultant. 
+Ik ben geodata analist en occasioneel programmeur, werkzaam bij de Studiedienst van stad Antwerpen en parttime freelance GIS-consultant/Programmeur. 
+
+Professioneel werk ik op webmapping met ESRI Arcgis, Geoserver of Mapbox Tilemill. Ik beheer ook mee de centrale geodatabases van het stad en INSPIRE-compliant metadata in kader van GDI. 
+
+Ik heb ervaring in programeren van scripts en toepassingen in python of dotnet en de frontend van webmaps met javascript met de openlayers, leaflet of arcgis-javascript bibliotheken.
+Zo maakte ik een tool om snel crab-opdates te doen op basis van XGRAB en heb ik meegewerkt aan de het stadsplan op website van stad Antwerpen. Voor Agendschap Geografische Informatie Vlaanderen (AGIV) ontwikkelde ik een Plugin voor QGIS met diverse webservices uit de Geopunt-API.  
+
+Voor de rest doe ik vooral allerlei GIS analyses. De meeste analyses zijn gerelateerd aan adressering-geocoding, ruimtelijke relaties, nabijheids analyses (routing, service area's ed.) voor onder andere MER studies, ruimtelijke ordening of bouwvergunningen. In verleden heb ook veel analyses op maritieme gegevens zoals bodemmodelen, baggerstatistiek en hydrografie.
+
 Naast geohacking en kaartjes maken, houd ik van lezen, film kijken en reizen.
-
-Professioneel werk ik op webmapping met ESRI arcgis-server of Mapbox Tilemill. Ik beheer ook mee de centrale geodatabases van het stad en INSPIRE-compliant metadata in kader van GDI, Voor de rest doe ik vooral allerlei GIS analyses op data van het Stad. De meeste analyses zijn gerelateerd aan adressering-geocoding, ruimtelijke relaties, nabijheids analyses (routing, service area's ed.) voor onder andere MER studies, ruimtelijke ordening of bouwvergunningen.
-
-[Contacteer mij](mailto:kaywarrie@gmail.com)
 
  
 Ervaring
 --------
 
+- **Freelance GIS-consultant** (2014 - heden) 
+    Opdrachtgevers: Agendschap voor Geografische Informatie Vlaanderen. 
 - **GIS-Expert** (januari 2012 - heden)
     Stad Antwerpen, Studiedienst
 - **GIS deskundige** (september 2007 - januari 2012)
