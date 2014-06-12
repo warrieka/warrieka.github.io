@@ -4,16 +4,16 @@ Over mij
 Gegevens
 --------
 
-Naam: Kay Warrie
+**Naam:** Kay Warrie
 
-OndernemeningsNummer: 0552 935 137
+**OndernemeningsNummer:** 0552 935 137
 
-Adres: 
+**Adres:** 
        Molenstraat 18
        3191 Hever <br/>
-Telefoon: 0494 47 38 00
+**Telefoon:** 0494 47 38 00
 
-Email: [kaywarrie@gmail.com](mailto:kaywarrie@gmail.com)
+**Email:** [kaywarrie@gmail.com](mailto:kaywarrie@gmail.com)
 
 Wie ben ik
 ----------
