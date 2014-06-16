@@ -61,7 +61,6 @@ function legendChecked(val) {
     else if (map.hasLayer(layer) == false) map.addLayer( layer , false)
 }
 
-
 function toggle() {
 	var elem = document.getElementById("legendForm");
 	var text = document.getElementById("legendToggleInfo");

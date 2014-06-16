@@ -152,6 +152,7 @@ function init() {
 
 /*wigets*/
 	 addlegende(map);
+     toggle();
 	 
 	 map.options.zoomInText = '<img src="ico/zoom-in.png" alt="+" /> '	 
 	 map.options.zoomOutText = '<img src="ico/zoom-out.png" alt="-" />'
