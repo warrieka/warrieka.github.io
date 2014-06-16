@@ -35,7 +35,7 @@ function init() {
     var parkTemplate = "<h3>{Naam}</h3>";
     
 	map = L.map('map' , {
-		attributionControl: true,
+		attributionControl: false,
 		zoomControl: true ,
 		center: [51.26299, 4.373], zoom: 11
 		});
