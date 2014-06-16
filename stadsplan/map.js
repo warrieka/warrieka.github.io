@@ -158,7 +158,6 @@ function init() {
 	 map.options.zoomOutText = '<img src="ico/zoom-out.png" alt="-" />'
 	 
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
-	 L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
 	 
 /*	 map.addControl( new L.Control.Search({
 	    url: 'http://nominatim.openstreetmap.org/search?format=json&q={s}',
@@ -178,6 +177,9 @@ function init() {
                         minLength: 2,
                         position:'topright'
                  }) ); 
+       
+         L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
+       
 /*geolocation*/
 	 map.on('locationfound', onLocationFound);
              map.locate();
