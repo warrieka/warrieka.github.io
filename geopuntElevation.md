@@ -1,4 +1,4 @@
-Hoogteproiel
+Hoogteprofiel
 =============
 
 ![](images/geopuntElevation.png)
