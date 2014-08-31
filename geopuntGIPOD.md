@@ -18,7 +18,7 @@ Let op voor conficten, provincie "Antwerpen" en stad "Gent" zullen geen resultaa
 
 Je kan opslaan naar verschillende geografische formaten zoals shapefile en KML (google earth) en naar CSV-bestanden die je kan openen in excel of een andere spreadsheet.
 
-![](images/geopuntGIPOD.gif "GIPOD data laden in QGIS")
+![](images/geopunt4qgisGIPOD.gif "GIPOD data laden in QGIS")
 
 ####Wat is GIPOD
 

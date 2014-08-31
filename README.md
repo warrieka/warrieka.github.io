@@ -11,7 +11,9 @@ Functions
   * <a href="http://warrieka.github.io/#!geopuntBatchgeocode.md" ><img src="images/geopuntBatchgeocodeSmall.png" />batch geocode CSV-files </a>
   * <a href="http://warrieka.github.io/#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" />search for poi</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntGIPOD.md" ><img src="images/geopuntGIPODsmall.png" /> GIPOD</a>
-
+  * <a href="http://warrieka.github.io/index.html#!geopuntElevation.md" ><img src="images/geopuntElevationSmall.png" /> Hoogteprofiel</a>
+  * <a href="http://warrieka.github.io/index.html#!geopuntDatacatalog.md" ><img src="images/geopuntDataCatalogusSmall.png" /> Geopunt catalogus</a>
+ 
 System requirements
 -------------------
 
