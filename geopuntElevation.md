@@ -19,4 +19,6 @@ Je kunt ook het aantal profielpunten langsheen de lijn instellen. Met de ververs
 
 Onderaan vind je de knoppen die toelaten om de enerzijds de opgehaalde profielpunten op te slaan als een puntenlaag en de getekende profiellijn als een lijnenlaag. Bijvoorbeeld om op een kaartafdruk te plaatsen of om andere analyse op te doen.
 
-![](images/geopunt4qgisElevation.gif)
+Via instellingen (*op menubalk: plugins/geopunt4QGIS/instellingen*) kan je instellen of er wordt opgeslagen naar een tijdelijke laag of een permanent bestand (shapefile of spatialite). Let op een tijdelijke laag ben je kwijt als je QGIS afsluit.
+
+![](images/geopunt4qgisElevation.gif "Het hoogteprofiel")

@@ -10,6 +10,6 @@ Als je meerdere adressen toevoegt komen die in dezelfde laag terecht. De laag be
 
 Via instellingen (*op menubalk: plugins/geopunt4QGIS/instellingen*) kan je instellen of er wordt opgeslagen naar een tijdelijke laag of een permanent bestand (shapefile of spatialite). Let op een tijdelijke laag ben je kwijt als je QGIS afsluit.
 
-![](images/geopunt4qgisAdres.gif "Zoek een Adres")  
+![](images/geopunt4qgisAdres.gif "Zoek een Adres")
 
 [Foute adressen kunt u melden via LARA (enkel voor GDI-Vlaanderen)](http://crab.agiv.be/Lara) 

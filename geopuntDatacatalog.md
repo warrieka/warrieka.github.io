@@ -13,4 +13,4 @@ Indien een fiche een bijhorende WMS, WFS of download link heeft, kan je  via de 
 
 Let op de typen "Dataset", "Datasetserie" en "Service" van de fiches kunnen een bijhorende service hebben, niet alleen de Service.
 
-![](images/geopunt4qgisDataCatalogus.gif)
+![](images/geopunt4qgisDataCatalogus.gif "Geopunt-catalogus")

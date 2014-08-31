@@ -11,7 +11,9 @@ Deelnemers van GDI-vlaanderen kunnen gebruik maken van Crab Match om grote besta
 
 Voor je een tekstbestand inlaad moet je de separator ingeven. Je kan ook de encoding instellen: 'utf-8' of 'ansi'. Dit is de set met speciale tekens die gebruikt worden. De meeste software in Vlaanderen gebruikt de 'utf-8' tekenset, maar als je een error krijgt bij inladen of sommige speciale tekens ( é, $, €, ...) worden niet correct weergeven, dan moet nog eens proberen met de ansi-tekenset.
 
-Als je data correct ingeladen hebt kan je de adres-kolom instellen. Als je huisnummer of gemeente (of postcode) in een andere kolom staan met je die ook opgeven.
+Als je data correct ingeladen hebt kan je de adres-kolom instellen. 
+Je kunt ofwel met het volledige adres in 1 kolom opgeven. Het moet in de vorm *<straat> <nr>, <postcode of gemeente>* staan. 
+Als je straatnaam, huisnummer en gemeente (of postcode) in een meerdere kolom staan kan je die elk appart opgeven opgeven.
 
 #### Data Valideren
 
