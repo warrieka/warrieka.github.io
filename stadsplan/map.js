@@ -40,47 +40,58 @@ function init() {
 		center: [51.26299, 4.373], zoom: 11
 		});
 
-/*basemaps*/
-    var grb_grijs = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/grb_bsk_gr@GoogleMapsVL/{z}/{x}/{y}.png", {
-        minZoom: 6,
-        maxZoom: 20,
-        tms: true
-    });
-
+/*basemaps*/        
+/*   
     var grb = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/grb_bsk@GoogleMapsVL/{z}/{x}/{y}.png", {
         minZoom: 6,
         maxZoom: 20,
         tms: true
     });
 
-    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {})
+   var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {})
 	
-    var lufo  = L.tileLayer( "http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/orthoklm@GoogleMapsVL/{z}/{x}/{y}.png" , {
+   var lufo  = L.tileLayer( "http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/orthoklm@GoogleMapsVL/{z}/{x}/{y}.png" , {
 		minZoom: 6,
 		maxZoom: 20,
 		tms: true
 	});
+*/
+    var grb_grijs = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/grb_bsk_gr@GoogleMapsVL/{z}/{x}/{y}.png", 
+    {
+        tms: true,
+        minZoom: 17,
+        maxZoom: 19,
+        bounds: [                 //= the size of Flanders
+                 [50.685, 2.58],
+                 [51.500, 5.92]
+                ]
+    });
+     var arcgis_grijs = L.esri.tiledMapLayer( "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer" , 
+        {
+            minZoom: 6,
+            maxZoom: 16
+        });
 
     var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap_stadsplan_v4/MapServer", {
             opacity:  0.95,
             minZoom: 11,
             maxZoom: 19,
-            bounds: [
+            bounds: [                   //= the size of Antwerp
                         [51.150, 4.225],
                         [51.400, 4.500]
                     ]
             });
 
-    grb_grijs.addTo(map);   // grb_grijs is default basemap
-    antw.addTo(map);        // overlay
+    var mapbox = L.tileLayer(
+"https://api.tiles.mapbox.com/v4/base.live-land-tr+0.68x0.68;0.07x0.07;0.76x1.00;0.00x1.00,base.live-landuse-tr+0.66x0.66;0.07x0.07;0.66x1.00;0.00x1.00,base.mapbox-streets+bg-f4f4f6_scale-1_water-0.65x0.65;0.00x0.00;0.71x0.71;0.00x1.00_streets-0.68x0.68;0.00x0.20;0.50x1.00;0.00x1.00_landuse-0.66x0.66;0.07x0.07;0.66x1.00;0.00x1.00_buildings-0.67x0.67;0.07x0.07;0.71x1.00;0.00x1.00/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q&update=i26b2"
+    )    
+    
+    grb_grijs.addTo(map);    // grb_grijs is default basemap at tilelevel 17 - 19
+    arcgis_grijs.addTo(map); // arcgis_grijs is detault basemap at tilelevel 6 - 16
+    antw.addTo(map);         // overlay on grey
 
-    baseMaps = {
-            "GRB (kleur)": grb,
-            "GRB (grijs)": grb_grijs,
-	        "Open Street Map": osm,
-	        "Luchtfoto": lufo
-	};
-
+    var baseLyrs = { "Arcgis grijs": arcgis_grijs, "GRB grijs": grb_grijs, "mapbox": mapbox, "Antwerpen":antw}
+    
 /*features*/
     var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/0", bibTemplate, bibIcon, 30)
     overlays["bib"] = bib;
@@ -159,14 +170,7 @@ function init() {
 	 
 	 L.control.scale({ metric:true, imperial:false, position:'bottomright' } ).addTo(map);
 	 
-/*	 map.addControl( new L.Control.Search({
-	    url: 'http://nominatim.openstreetmap.org/search?format=json&q={s}',
-	    jsonpParam: 'json_callback',
-	    propertyName: 'display_name',
-	    propertyLoc: ['lat','lon']
-	}) );  */
-		 
-       map.addControl( new L.Control.Search({
+     var zoekAdres = new L.Control.Search({
          url: 'http://loc.api.geopunt.be/geolocation/location?c=5&q={s}',
                         jsonpParam: 'callback',                  //callback param
                         filterJSON: filterJSONCall,              //callback that remaps json
@@ -175,15 +179,19 @@ function init() {
 		                textErr: 'Adres kon niet worden gevonden',	//error message
 			            zoom: 15,
                         minLength: 2,
-                        position:'topright'
-                 }) ); 
+                        position:'topright',
+                         
+                 })
+     map.addControl( zoekAdres ); 
        
-         L.control.layers(baseMaps, {"Antwerpen":antw}).addTo(map);
+    zoekAdres.expand()
+       
+     L.control.layers({}, baseLyrs,{collapsed: false} ).addTo(map);
        
 /*geolocation*/
 	 map.on('locationfound', onLocationFound);
              map.locate();
-	}
+	 }
         
 /*callback that remaps json*/
 function filterJSONCall(rawjson) {	
@@ -271,4 +279,5 @@ function onLocationFound(e) {
 	        + "<br/> Je bent binnen " + radius + " m van dit punt.");
 		}
 	}
-	
+
+    
