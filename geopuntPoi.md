@@ -3,11 +3,11 @@ Zoek een Plaats - interesse punt
 
 ![](images/geopuntPoi.png) Met deze tool kan je naar interesse punten (POI: Points of Intrest) in de geopunt POI-diensten zoeken. Je moet een zoek-tekst opgeven en op de verrekijker klikken om te zoeken. Je kan je zoekresultaten beperken tot het huidige kaartbeeld en je kunt uit verschillende filters kiezen. 
 
-Er wordt een tabel met gevonden POI's weergegeven, inclusief de naam, de categorie en het correcte crabadres. Er worden maximaal 32 resultaten getoond.
+Er wordt een tabel met gevonden POI's weergegeven, inclusief de naam, de categorie en het correcte crab-adres. Er worden maximaal 32 resultaten getoond.
 
 Je kunt in de resultaattabel gegevens selecteren om ze te doen oplichten op de kaart. Als je rechts klikt of op klikt op de knop **Zoom naar selectie** kan je naar de geselecteerde objecten zoomen.
 
-Via de knop of contextmenu **Voeg selectie toe aan kaart** kan je de geselecteerde objecten toevoegen als een kaartlaag, die je kunt gebruiken voor analyses of cartografie. Deze laag bevat de attributen: de naam, de categorie, het correcte crabadres en  tevens ook de link naar meer info over het punt, de datum van de laatste update en de eigenaar. 
+Via de knop of contextmenu **Voeg selectie toe aan kaart** kan je de geselecteerde objecten toevoegen als een kaartlaag, die je kunt gebruiken voor analyses of cartografie. Deze laag bevat de attributen: de naam, de categorie, het correcte crab-adres en  tevens ook de link naar meer info over het punt, de datum van de laatste update en de eigenaar. 
 
 Als er meer dan 32 resultaten zijn, kan je alle POI’s toevoegen die voldoen aan de criteria met de knop rechts onderaan. Dit is een versie met minder attribuutdata en indien er meer dan 1000 punten zijn, zal een gedeelte geclusterd worden.
 
