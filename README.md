@@ -13,6 +13,7 @@ Functions
   * <a href="http://warrieka.github.io/index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Find a point of intrest</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntGIPOD.md" ><img src="images/geopuntGIPODsmall.png" /> GIPOD</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntElevation.md" ><img src="images/geopuntElevationSmall.png" /> Elevation profile</a>
+  * <a href="http://warrieka.github.io/index.html#!geopunt4qgisParcel.md" ><img src="images/geopuntParcelSmall.png" /> Find a parcel</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntDatacatalog.md" ><img src="images/geopuntDataCatalogusSmall.png" /> Geopunt catalog</a>
 
   
@@ -43,6 +44,7 @@ These include:
 - **Location search** based on databases joined to the CRAB database, like the locations of the schools in Flanders.
 - **Traffic obstruction information** from the [GIPOD](http://gipod.api.agiv.be/#!index.md) public works and manifestation database.
 - **Elevation profile** a service that queries the digital elevation model Flanders, a set of along a line is retrieved.
+- **Find parcels** find parcels in KADMAP.
 - **Metadata catalog** the [metadatacenter](https://metadata.geopunt.be) of Geopunt contains information about datasets and services from AGIV, DOV (geology) and MercatorNet (a co-operation between several Flemish governmental agencies).
 
 The goal of this project is to make these web-services available to QGIS-users, so they can be uses for creating print-maps and for doing research and analyses.

@@ -12,6 +12,7 @@ Functies
   * <a href="http://warrieka.github.io/index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Zoek een Plaats - interesse punt</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntGIPOD.md" ><img src="images/geopuntGIPODsmall.png" /> GIPOD</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntElevation.md" ><img src="images/geopuntElevationSmall.png" /> Hoogteprofiel</a>
+  * <a href="http://warrieka.github.io/index.html#!geopunt4qgisParcel.md" ><img src="images/geopuntParcelSmall.png" /> Zoek een perceel</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntDatacatalog.md" ><img src="images/geopuntDataCatalogusSmall.png" /> Geopunt catalogus</a>
  
 Systeem vereisten
@@ -41,6 +42,7 @@ Het gaat onder andere over:
 - **Locaties zoeken**, door koppeling van adressen aan de crab-databank, bijvoorbeeld de scholendatabank van de Vlaamse overheid. (documentatie  nog niet beschikbaar)
 - **Innames van openbaar domein**, van het Generiek Informatieplatform Openbaar Domein (GIPOD)  [GIPOD](hhttp://gipod.api.agiv.be/#!index.md), de officiële databank met manifestaties, wegenwerken en andere obstructies op het openbaar domein.
 - **Hoogteprofiel**, een dienst waarmee de hoogte, in digitaal hoogte model Vlaanderen, langsheen een lijn kan worden opgevraagd.
+- **Percelen zoeken**, op getrapte wijze op de basis van gemeente naar departement, sectie dan naar perceelnummer in KADMAP.
 - **Metadata zoekdienst**, deze diensten worden gebruik in het [metadatacenter](https://metadata.geopunt.be) van geopunt en bevat ondermeer metadatafiches van AGIV, het samenwerkingsverband MercatorNet en DOV. 
 
 Om GIS gebruikers binnen en buiten de Vlaamse Overheid dezelfde functionaliteit ter beschikking te stellen als aangeboden in Geopunt, wenst AGIV deze gebruikers te voorzien van software plug-ins die deze functionaliteit geïntegreerd aanbieden binnen de meest gangbare GIS desktop  omgevingen. 
