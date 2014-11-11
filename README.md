@@ -13,7 +13,7 @@ Functions
   * <a href="http://warrieka.github.io/index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Find a point of intrest</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntGIPOD.md" ><img src="images/geopuntGIPODsmall.png" /> GIPOD</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntElevation.md" ><img src="images/geopuntElevationSmall.png" /> Elevation profile</a>
-  * <a href="http://warrieka.github.io/index.html#!geopunt4qgisParcel.md" ><img src="images/geopuntParcelSmall.png" /> Find a parcel</a>
+  * <a href="http://warrieka.github.io/index.html#!geopuntParcel.md" ><img src="images/geopuntParcelSmall.png" /> Find a parcel</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntDatacatalog.md" ><img src="images/geopuntDataCatalogusSmall.png" /> Geopunt catalog</a>
 
   

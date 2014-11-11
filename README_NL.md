@@ -12,7 +12,7 @@ Functies
   * <a href="http://warrieka.github.io/index.html#!geopuntPoi.md" ><img src="images/geopuntPoiSmall.png" /> Zoek een Plaats - interesse punt</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntGIPOD.md" ><img src="images/geopuntGIPODsmall.png" /> GIPOD</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntElevation.md" ><img src="images/geopuntElevationSmall.png" /> Hoogteprofiel</a>
-  * <a href="http://warrieka.github.io/index.html#!geopunt4qgisParcel.md" ><img src="images/geopuntParcelSmall.png" /> Zoek een perceel</a>
+  * <a href="http://warrieka.github.io/index.html#!geopuntParcel.md" ><img src="images/geopuntParcelSmall.png" /> Zoek een perceel</a>
   * <a href="http://warrieka.github.io/index.html#!geopuntDatacatalog.md" ><img src="images/geopuntDataCatalogusSmall.png" /> Geopunt catalogus</a>
  
 Systeem vereisten
