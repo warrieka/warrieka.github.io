@@ -49,13 +49,19 @@ function init() {
     });
 
    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {})
-	
-   var lufo  = L.tileLayer( "http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/orthoklm@GoogleMapsVL/{z}/{x}/{y}.png" , {
+*/
+   var lufo_arcgis = L.esri.tiledMapLayer( "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer" , 
+        {
+            maxZoom: 19
+        });
+
+   var lufo  = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/orthoklm@GoogleMapsVL/{z}/{x}/{y}.png" , 
+   	{
 		minZoom: 6,
 		maxZoom: 20,
 		tms: true
 	});
-*/
+
     var grb_grijs = L.tileLayer("http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/tms/1.0.0/grb_bsk_gr@GoogleMapsVL/{z}/{x}/{y}.png", 
     {
         tms: true,
@@ -90,7 +96,8 @@ function init() {
     arcgis_grijs.addTo(map); // arcgis_grijs is detault basemap at tilelevel 6 - 16
     antw.addTo(map);         // overlay on grey
 
-    var baseLyrs = { "Arcgis grijs": arcgis_grijs, "GRB grijs": grb_grijs, "mapbox": mapbox, "Antwerpen":antw}
+    var baseLyrs = { "luchtfoto AGIV": lufo, "luchtfoto ARCGIS": lufo_arcgis ,
+    	"Arcgis grijs": arcgis_grijs, "GRB grijs": grb_grijs, "mapbox": mapbox, "Antwerpen":antw}
     
 /*features*/
     var bib = makeCluster("http://services1.arcgis.com/inQ6vcoHiLEh0Ty2/arcgis/rest/services/Astad/FeatureServer/0", bibTemplate, bibIcon, 30)
