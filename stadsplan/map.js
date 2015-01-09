@@ -78,7 +78,7 @@ function init() {
             maxZoom: 16
         });
 
-    var antw = L.tileLayer("http://tiles.arcgis.com/tiles/1KSVSmnHT2Lw9ea6/arcgis/rest/services/basemap_stadsplan_v6/MapServer/tile/{z}/{y}/{x}",
+    var antw = L.tileLayer("http://tiles.arcgis.com/tiles/1KSVSmnHT2Lw9ea6/arcgis/rest/services/basemap_stadsplan_v6/MapServer/tile/{z}/{x}/{y}",
     {
             maxZoom: 19,
             bounds: [                   //= the size of Antwerp
