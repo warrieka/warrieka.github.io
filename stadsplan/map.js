@@ -101,9 +101,9 @@ function init() {
 "https://api.tiles.mapbox.com/v4/base.live-land-tr+0.68x0.68;0.07x0.07;0.76x1.00;0.00x1.00,base.live-landuse-tr+0.66x0.66;0.07x0.07;0.66x1.00;0.00x1.00,base.mapbox-streets+bg-f4f4f6_scale-1_water-0.65x0.65;0.00x0.00;0.71x0.71;0.00x1.00_streets-0.68x0.68;0.00x0.20;0.50x1.00;0.00x1.00_landuse-0.66x0.66;0.07x0.07;0.66x1.00;0.00x1.00_buildings-0.67x0.67;0.07x0.07;0.71x1.00;0.00x1.00/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q&update=i26b2"
     )    
     
-    lufo_arcgis.addTo(map);    // grb_grijs is default basemap at tilelevel 17 - 19
+    //lufo_arcgis.addTo(map);    // grb_grijs is default basemap at tilelevel 17 - 19
     //arcgis_grijs.addTo(map); // arcgis_grijs is detault basemap at tilelevel 6 - 16
-    //antw.addTo(map);         // overlay on grey
+    antw.addTo(map);         // overlay on grey
 
     var baseLyrs = { "luchtfoto AGIV": lufo, "luchtfoto ARCGIS": lufo_arcgis ,
     	"Arcgis grijs": arcgis_grijs, "GRB grijs": grb_grijs, "mapbox": mapbox, "Antwerpen":antw}
