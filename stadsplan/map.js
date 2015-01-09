@@ -78,7 +78,16 @@ function init() {
             maxZoom: 16
         });
 
-    var antw = L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap_stadsplan_v4/MapServer", {
+    var antw = L.tileLayer("http://tiles.arcgis.com/tiles/1KSVSmnHT2Lw9ea6/arcgis/rest/services/basemap_stadsplan_v6/MapServer/tile/{z}/{x}/{y}"
+    {
+            maxZoom: 19,
+            bounds: [                   //= the size of Antwerp
+	                [51.150, 4.225],
+                        [51.400, 4.500]
+                    ]    	
+    } )
+    
+    /*L.esri.tiledMapLayer("http://tiles.arcgis.com/tiles/inQ6vcoHiLEh0Ty2/arcgis/rest/services/basemap_stadsplan_v4/MapServer", {
             opacity:  0.95,
             minZoom: 11,
             maxZoom: 19,
@@ -87,7 +96,7 @@ function init() {
                         [51.400, 4.500]
                     ]
             });
-
+*/
     var mapbox = L.tileLayer(
 "https://api.tiles.mapbox.com/v4/base.live-land-tr+0.68x0.68;0.07x0.07;0.76x1.00;0.00x1.00,base.live-landuse-tr+0.66x0.66;0.07x0.07;0.66x1.00;0.00x1.00,base.mapbox-streets+bg-f4f4f6_scale-1_water-0.65x0.65;0.00x0.00;0.71x0.71;0.00x1.00_streets-0.68x0.68;0.00x0.20;0.50x1.00;0.00x1.00_landuse-0.66x0.66;0.07x0.07;0.66x1.00;0.00x1.00_buildings-0.67x0.67;0.07x0.07;0.71x1.00;0.00x1.00/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q&update=i26b2"
     )    
