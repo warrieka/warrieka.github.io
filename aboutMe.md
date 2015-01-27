@@ -31,6 +31,19 @@ Voor de rest doe ik vooral allerlei GIS analyses. De meeste analyses zijn gerela
 
 Naast geohacking en kaartjes maken, houd ik van lezen, film kijken en reizen.
 
+Portfolio
+---------
+
+- Gastlector Hogeschool PXL: GIS begrijpen en gebruiken als IT’er: 
+    http://www.pxl.be/Pub/Home/Agenda/Congress-Agenda/GIS-begrijpen-en-gebruiken-als-ITer.html
+    **Referentie:** Kris Lentacker <Kris.Lentacker@pxl.be>  
+- De Geopunt plugin voor QGIS (desktop plugin): http://www.geopunt.be/nl/voor-experts/geopunt-plug-ins
+	**Referentie:** Joeri Robbrecht <Joeri.Robbrecht@agiv.be> 
+- Stadsplan op Website Antwerpen: https://www.antwerpen.be/nl/stadsmap
+	**Referentie:** Kris Waelkens <Kris.Waelkens@digipolis.be>  
+- Opendata viewer Stad Antwerpen:  http://opendata.antwerpen.be/apps/open-data-geoviewer
+	**Referentie:** Ari Apteker <ari.apteker@stad.antwerpen.be>  
+ 
  
 Ervaring
 --------

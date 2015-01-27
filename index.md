@@ -35,13 +35,9 @@ Meer info over geopunt vind je hier:
 
 #### Kaart Stad Antwerpen
 
-Een interactieve kaart van Antwerpen op basis van Agiv webservices:  
-[grb](https://www.agiv.be/producten/grb/meer-over/aan-de-slag/grb-
-raadpleegdiensten) voor de basiskaarten en  
-[crab](https://www.agiv.be/producten/crab/meer-info-over-crab/gebruik-van-het-
-crab/geolocation) voor zoeken op adres. En op data van Stad Antwerpen gehost op 
-[arcgis](http://arcgis.com). Geprogrammeerd met de  
-[leaflet](http://leafletjs.com/) mapping javascript API. Ontwikkeld als proof of 
+Een interactieve kaart van Antwerpen op basis van Agiv webservices: [grb](https://www.agiv.be/producten/grb/meer-over/aan-de-slag/grb-
+raadpleegdiensten) voor de basiskaarten en [crab](https://www.agiv.be/producten/crab/meer-info-over-crab/gebruik-van-het-
+crab/geolocation) voor zoeken op adres. En op data van Stad Antwerpen gehost op [arcgis](http://arcgis.com). Geprogrammeerd met de [leaflet](http://leafletjs.com/) mapping javascript API. Ontwikkeld als proof of 
 concept voor [Stadsplan voor A-stad](https://beta.antwerpen.be/stadsmap).
 
 [Naar de App](stadsplan)

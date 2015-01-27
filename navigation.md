@@ -22,4 +22,6 @@
 
 [open-data-geoviewer](http://opendata.antwerpen.be/apps/open-data-geoviewer)
 
+[geoplus](geoplus/index.html)
+
 [over mij](aboutMe.md)
