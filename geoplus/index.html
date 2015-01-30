@@ -3,35 +3,12 @@
     <title>Geoplus</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/ui-lightness/jquery-ui.css">
-    <script> //redirect if old browser
-    function getInternetExplorerVersion()
-    {
-      var rv = -1; // Return value assumes failure.
-      if (navigator.appName == 'Microsoft Internet Explorer')
-      {
-        var ua = navigator.userAgent;
-        var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
-        if (re.exec(ua) != null)
-          rv = parseFloat( RegExp.$1 );
-      }
-      return rv;
-    }
-    function checkVersion()  
-    {
-      var msg = "You're not using Internet Explorer.";
-      var ver = getInternetExplorerVersion();
-    
-    if ( ver > -1 )
-      {
-        if ( ver >= 9.0 ) 
-          msg = "You're using a recent copy of Internet Explorer."
-        else
-          msg = "You should upgrade your copy of Internet Explorer.";
-      }
-      window.location = "/geoplus/notsupported.html"
-    }
-    checkVersion(); 
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+     //redirect if old browser
+      window.location = "http://warrieka.github.io/geoplus/notsupported.html";
     </script>
+    <![endif]-->
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <!--external depedency stuff-->
