@@ -6,8 +6,7 @@ Kay Warrie
 Over mij
 --------
 
-Ik ben geodata analist en occasioneel programmeur, werkzaam parttime freelance 
-GIS-consultant en als GIS-expert bij de Studiedienst van stad Antwerpen. 
+Ik ben geodata analist en occasioneel programmeur, werkzaam als GIS-expert bij de Studiedienst van stad Antwerpen. 
 Naast geohacking en kaartjes maken, houd ik van lezen, film kijken en reizen.
 
 [Contacteer mij](mailto:kaywarrie@gmail.com)
