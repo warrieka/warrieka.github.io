@@ -1,48 +1,8 @@
 [{
-		"url" : "http://opendata.antwerpen.be/datasets/gebieden-voorkooprecht",
-		"info" : " Aantal leerlingen in het secundair onderwijs voor de periode van 2002 tot 2011 per district.\nalgemeen\n... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/rvvwooncodeleegstand",
-		"title" : "Gebieden voorkooprecht"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/toegangen",
-		"info" : " Aantal leerlingen in het secundair onderwijs voor de periode van 2002 tot 2011 per district.\nalgemeen\n... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/toegang",
-		"title" : "Toegangen"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/groenzones",
-		"info" : " Deze dataset toont per jaar alle geveegde straten per Buurt aan de Beurt-actie.\n... ",
-		"ds" : "http://datasets.antwerpen.be/v1/infrastructuur/groenzone",
-		"title" : "Groenzones"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/velo-stations",
-		"info" : " Deze dataset toont per jaar alle geveegde straten per Buurt aan de Beurt-actie.\n... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/velostation",
-		"title" : "Velo-stations"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/buurt-aan-de-beurt",
-		"info" : " Deze dataset toont per jaar alle geveegde straten per Buurt aan de Beurt-actie.\n... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/buurtaandebeurtactie",
-		"title" : "Buurt aan de Beurt"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/dienstencentra-punt",
-		"info" : " Deze dataset bevat alle locaties (co\u00f6rdinaten en adres) van de culturele instellingen (musea en cultuurcentra) in de stad Antwerpen en haar... \n        Beschikbaar sinds 9 maanden 3 weken.  \n Cultuur - sport - vrije tijdInfrastructuurToerisme  ",
-		"ds" : "http://datasets.antwerpen.be/v1/infrastructuur/dienstencentrumoverzicht",
-		"title" : "Dienstencentra (punt)"
-	}, {
 		"url" : "http://opendata.antwerpen.be/datasets/bovengrondse-sorteerstraten",
 		"info" : " Deze dataset bevat alle locaties (co\u00f6rdinaten en adres) van de culturele instellingen (musea en cultuurcentra) in de stad Antwerpen en haar... \n        Beschikbaar sinds 9 maanden 3 weken.  \n Cultuur - sport - vrije tijdInfrastructuurToerisme  ",
 		"ds" : "http://datasets.antwerpen.be/v4/gis/sorteerstraatbovengronds",
 		"title" : "Bovengrondse sorteerstraten"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/dienstencentra-vlak",
-		"info" : " Deze dataset bevat alle locaties (co\u00f6rdinaten en adres) van de culturele instellingen (musea en cultuurcentra) in de stad Antwerpen en haar... \n        Beschikbaar sinds 9 maanden 3 weken.  \n Cultuur - sport - vrije tijdInfrastructuurToerisme  ",
-		"ds" : "http://datasets.antwerpen.be/v1/infrastructuur/dienstencentrumdetail",
-		"title" : "Dienstencentra (vlak)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/parken",
-		"info" : " Deze dataset bevat alle locaties (co\u00f6rdinaten en adres) van de culturele instellingen (musea en cultuurcentra) in de stad Antwerpen en haar... \n        Beschikbaar sinds 9 maanden 3 weken.  \n Cultuur - sport - vrije tijdInfrastructuurToerisme  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/parken",
-		"title" : "Parken"
 	}, {
 		"url" : "http://opendata.antwerpen.be/datasets/bpas-en-rups-deelgebieden",
 		"info" : " Opgesplitst in 10 geodatasets geven we de goedgekeurde, niet-vervallen bijzondere plannen van aanleg (BPA's) en gemeentelijke ruimtelijke uitvoeringsplannen (RUP's) die geldig zijn op het... ",
@@ -129,11 +89,6 @@
 		"ds" : "http://datasets.antwerpen.be/v4/gis/rupcontour",
 		"title" : "RUP's - begrenzingen"
 	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-supermarkten-en-superettes",
-		"info" : " Deze dataset bevat alle locaties met gratis publieke toegang tot het WIFI-netwerk van de Stad Antwerpen.\n ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereiksupermarktsuperettebuurt",
-		"title" : "Bereikzone supermarkten en superettes"
-	}, {
 		"url" : "http://opendata.antwerpen.be/datasets/sectorverdeling-dienst-vergunningen",
 		"info" : " Deze dataset bevat alle locaties met gratis publieke toegang tot het WIFI-netwerk van de Stad Antwerpen.\n ",
 		"ds" : "http://datasets.antwerpen.be/v4/gis/sectorverdelingarchitectensv",
@@ -143,126 +98,6 @@
 		"info" : " Deze dataset bevat alle locaties met gratis publieke toegang tot het WIFI-netwerk van de Stad Antwerpen.\n ",
 		"ds" : "http://datasets.antwerpen.be/v4/gis/speelterreinen",
 		"title" : "Speelterreinen"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-jeugdcentra",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikjeugdcentrumstadsdeel",
-		"title" : "Bereikzone jeugdcentra"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-luchtverkeer-etmaal",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_luchtverkeer_etmaal",
-		"title" : "Geluidskaart luchtverkeer (etmaal) "
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-basisonderwijs-vrije-net",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikbasisondvrijbuurt",
-		"title" : "Bereikzone basisonderwijs vrije net"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-woonbuurt-open-ruimte-ruim",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikwoonbuurtopenruimteruim",
-		"title" : "Bereikzone woonbuurt open ruimte (ruim)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/gebieden-culturele-historische-esthetische-waarde-che",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/chevecgebied",
-		"title" : "Gebieden Culturele, Historische, Esthetische waarde (CHE)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-luchtverkeer-nacht",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_luchtverkeer_nacht",
-		"title" : "Geluidskaart luchtverkeer (nacht) "
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-spoorverkeer-dag",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_spoorverkeer_dag",
-		"title" : "Geluidskaart spoorverkeer (dag)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-industri%C3%ABle-activiteiten-etmaal",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_industriele_activiteiten_etmaal",
-		"title" : "Geluidskaart industri\u00eble activiteiten (etmaal) "
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-industri%C3%ABle-activiteiten-nacht",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_industriele_activiteiten_nacht",
-		"title" : "Geluidskaart industri\u00eble activiteiten (nacht) "
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-luchtverkeer-dag",
-		"info" : " Deze dataset bevat gebieden in Antwerpen die op bestemmingsplannen (gewestplan, BPA's, RUP's) zijn aangeduid als zones met hoge... \n        Beschikbaar sinds 7 maanden 3 weken.  \n Cultuur - sport - vrije tijdGeografie  ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_luchtverkeer_dag",
-		"title" : "Geluidskaart luchtverkeer (dag) "
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-totaal-nacht",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_totaal_nacht",
-		"title" : "Geluidskaart totaal (nacht)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-wegverkeer-nacht",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_wegverkeer_nacht",
-		"title" : "Geluidskaart wegverkeer (nacht)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-spoorverkeer-etmaal",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_spoorverkeer_etmaal",
-		"title" : "Geluidskaart spoorverkeer (etmaal)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-wegverkeer-etmaal",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_wegverkeer_etmaal",
-		"title" : "Geluidskaart wegverkeer (etmaal)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-totaal-dag",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_totaal_dag",
-		"title" : "Geluidskaart totaal (dag)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-industri%C3%ABle-activiteiten-dag",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_industriele_activiteiten_dag",
-		"title" : "Geluidskaart industri\u00eble activiteiten (dag) "
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-wegverkeer-dag",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_wegverkeer_dag",
-		"title" : "Geluidskaart wegverkeer (dag)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-openlucht-sportvelden",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikopenluchtsportveldstadsdeel",
-		"title" : "Bereikzone openlucht sportvelden"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-spoorverkeer-nacht",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_spoorverkeer_nacht",
-		"title" : "Geluidskaart spoorverkeer (nacht)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/geluidskaart-totaal-etmaal",
-		"info" : " Deze dataset bevat de contouren van de gemodelleerde geluidsproductie door het spoorverkeer. De waarden zijn het gemiddelde geluidsniveau (op een jaar) gedurende een etmaal.\u00a0\nDe... ",
-		"ds" : "http://datasets.antwerpen.be/v1/gis/geluidskaart_totaal_etmaal",
-		"title" : "Geluidskaart totaal (etmaal)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-recyclageparken",
-		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikrecyclagecentrumstadsdeel",
-		"title" : "Bereikzone recyclageparken"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-wijk-open-ruimte",
-		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikwijkopenruimteruim",
-		"title" : "Bereikzone wijk open ruimte"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/gebruiksruimtes",
-		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/orcgebruiksopenruimtealleniveaus",
-		"title" : "Gebruiksruimtes"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/beschermde-landschappen",
-		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/mnzlsdlandschap",
-		"title" : "Beschermde landschappen"
 	}, {
 		"url" : "http://opendata.antwerpen.be/datasets/conventie-della-faille",
 		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
@@ -278,16 +113,6 @@
 		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
 		"ds" : "http://datasets.antwerpen.be/v4/gis/klbleidingen",
 		"title" : "Kabels en leidingen"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-woonbuurtgroen-ruim",
-		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikwoonbuurtgroenruim",
-		"title" : "Bereikzone woonbuurtgroen (ruim)"
-	}, {
-		"url" : "http://opendata.antwerpen.be/datasets/bereikzone-reguliere-kinderopvang",
-		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
-		"ds" : "http://datasets.antwerpen.be/v1/geografie/bereikvoorschkinderopvangbuurt",
-		"title" : "Bereikzone reguliere kinderopvang"
 	}, {
 		"url" : "http://opendata.antwerpen.be/datasets/monumenten",
 		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport, cultuur en welzijn) is voor elke lokale voorziening beslist... ",
@@ -1333,5 +1158,30 @@
 		"info" : " Elke voorziening kent een bepaald bereik op basis van loopafstand.\nIn samenspraak met de stadsbedrijven (onderwijs, jeugd, sport,... ",
 		"ds" : "http://datasets.antwerpen.be/v4/gis/bbq",
 		"title" : "Barbecues"
+	}, {
+		"url" : "http://opendata.antwerpen.be/datasets/groenvlak",
+		"info" : " Alle groenvlakken in de publieke ruimte die worden beheerd door de stad.\n ",
+		"ds" : "http://datasets.antwerpen.be/v4/gis/groenvlak",
+		"title" : "Groenvlak"
+	}, {
+		"url" : "http://opendata.antwerpen.be/datasets/zitmeubilair",
+		"info" : " Alle groenvlakken in de publieke ruimte die worden beheerd door de stad.\n ",
+		"ds" : "http://datasets.antwerpen.be/v4/gis/zitmeubilair",
+		"title" : "Zitmeubilair"
+	}, {
+		"url" : "http://opendata.antwerpen.be/datasets/zandbakken",
+		"info" : " Alle groenvlakken in de publieke ruimte die worden beheerd door de stad.\n ",
+		"ds" : "http://datasets.antwerpen.be/v4/gis/zandbak",
+		"title" : "Zandbakken"
+	}, {
+		"url" : "http://opendata.antwerpen.be/datasets/bpas-begrenzingen",
+		"info" : " Alle groenvlakken in de publieke ruimte die worden beheerd door de stad.\n ",
+		"ds" : "http://datasets.antwerpen.be/v4/gis/bpacontour",
+		"title" : "BPA's - begrenzingen"
+	}, {
+		"url" : "http://opendata.antwerpen.be/datasets/fietsgebruik-mei-2015",
+		"info" : " Alle groenvlakken in de publieke ruimte die worden beheerd door de stad.\n ",
+		"ds" : "http://datasets.antwerpen.be/v4/gis/cyclingchallenge",
+		"title" : "Fietsgebruik mei 2015"
 	}
 ]
