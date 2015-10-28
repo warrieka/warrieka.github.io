@@ -86,7 +86,7 @@ Met één klik krijgt u meer informatie (adres, foto, link) over het item.
 
 Meer info:
 [http://opendata.antwerpen.be/apps/open-data-geoviewer](http://opendata.
-Antwerpen.be/apps/open-data-geoviewer)
+Antwerpen.be/apps/open-data-geoviewer) 
 <br/>
 
 Professioneel
