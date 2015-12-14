@@ -212,7 +212,8 @@ Json structuren worden vaak ook gestandaardiseerd, schema worden hiervoor niet i
 	    ]
 	}
 
-### Werken met Webservices
+Werken met Webservices
+---------
 
 Webservices zijn eigenlijk gewoon webpagina's die XML of JSON terug geven in plaats van HTML.  Parameters kan opgeven via url-parameters of door ze te posten.
 
