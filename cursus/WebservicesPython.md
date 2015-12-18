@@ -17,7 +17,6 @@ Inhoud
 
 Data via url opvragen via python
 ----
-
 ### Text-data
 	import urllib, urllib2
 	qry = """node
@@ -54,18 +53,20 @@ Data via url opvragen via python
 	     if not chunk: break
 	     fl.write(chunk)
 
-### JSON
+JSON
+----
 	import urllib, urllib2, json 
 	url = 'http://inspirepub.waterinfo.be/arcgis/rest/services/Rivierbekkens/MapServer/0/query?where=1%3D1&outFields=*&f=json'
 	resp = urllib2.urlopen(url)
 	jsResp = json.load( resp )   #python dict
 	print jsResp["fields"][0]["name"]
 
-### XML
+XML
+----
 	Er zijn meerder XML-libraries beschikbaar in python. Elementree is de meest gebruikte omdat die werkt op de meest pythonische manier. Er is ook dom en sax in de standaard biblitheek. Dom is gestandaardiseerde xlm biblitheek, die vergelijkbaar is met de XML-bliotheek in javascript. Sax is en library geoptimaliseerd om zeer grote XML-bestanden te lezen (2 gb+). 
 	
 
-#### Eenvoudige XML
+### Eenvoudige XML
 	import urllib, urllib2
 	import xml.etree.cElementTree as ET
 	url = "http://plugins.qgis.org/plugins/plugins.xml?qgis=2.0"
@@ -85,7 +86,7 @@ Data via url opvragen via python
 		version = geopunt4Qgis[0].find("version")
 		if version is not None: print version.text
 
-#### Namespaces
+### Namespaces
 	import urllib, urllib2
 	import xml.etree.cElementTree as ET
 
@@ -112,7 +113,8 @@ Data via url opvragen via python
 		for GeometryOperand in GeometryOperands:
 			print GeometryOperand.text
 
-### fouten afhandelen
+Fouten afhandelen
+----
 Foutcodes: http://www.w3schools.com/tags/ref_httpmessages.asp
 
 	import urllib2, sys
@@ -142,7 +144,8 @@ Foutcodes: http://www.w3schools.com/tags/ref_httpmessages.asp
 	else:	
 		print resp.read()
 			
-### Basic Authentication en werken achter een proxy
+Basic Authentication en werken achter een proxy
+----
 proxy emulatie: http://www.telerik.com/fiddler
 rules > Require proxy authentication
 
@@ -184,7 +187,8 @@ Basic authentication: username + password. Tegenwoordig minder gebruikt.
 	# Now all calls to urllib2.urlopen use our opener.
 	urllib2.install_opener(opener)
 	
-### Oauth
+Oauth
+-----
 https://techrangers.cdl.ucf.edu/oauth-python-tutorial.php
 
 Via bijkomende library:
