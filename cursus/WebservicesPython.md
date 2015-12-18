@@ -128,19 +128,19 @@ Foutcodes: http://www.w3schools.com/tags/ref_httpmessages.asp
 		
 	URLError is erft van HTTPError, dus altijd na HTTPError. Of alternatief:	
 		
-from urllib2 import Request, urlopen, URLError
-try:
-	resp = urlopen('http://loc.api.geopunt.be/geen_correct_path')
-except URLError, e:
-	if hasattr(e, 'code'):
-		print 'The server couldn\'t fulfill the request.'
-		print 'Error code: '+ str(e.code)
-		print 'Server message:' + e.read()
-	elif hasattr(e, 'reason'):
-		print 'We failed to reach a server.'
-		print 'Reason: ', e.reason
-else:	
-	print resp.read()
+	from urllib2 import Request, urlopen, URLError
+	try:
+		resp = urlopen('http://loc.api.geopunt.be/geen_correct_path')
+	except URLError, e:
+		if hasattr(e, 'code'):
+			print 'The server couldn\'t fulfill the request.'
+			print 'Error code: '+ str(e.code)
+			print 'Server message:' + e.read()
+		elif hasattr(e, 'reason'):
+			print 'We failed to reach a server.'
+			print 'Reason: ', e.reason
+	else:	
+		print resp.read()
 			
 ### Basic Authentication en werken achter een proxy
 proxy emulatie: http://www.telerik.com/fiddler
