@@ -18,6 +18,8 @@ Inhoud
 Data via url opvragen via python
 ----
 ### Text-data
+Openstreetmap data ophalen: http://overpass-turbo.eu/
+
 	import urllib, urllib2
 	qry = """node
 	           [amenity=drinking_water]
@@ -28,6 +30,8 @@ Data via url opvragen via python
 	print resp.read()
 
 ### Binaire data
+	
+WMS, meer info: http://pdok-ngr.readthedocs.org/nl/latest/services.html#web-map-service-wms , http://docs.geoserver.org/2.7.1/user/services/wms/reference.html	
 		
 	import urllib, urllib2
 	outfile = r'C:\Users\k.warrie\Downloads\wms.png'
