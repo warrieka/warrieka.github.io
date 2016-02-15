@@ -965,15 +965,6 @@
   Point.prototype = new Primitive();
   Point.prototype.constructor = Point;
 
-  /*
-  GeoJSON MultiPoint Class
-      new MultiPoint();
-      new MultiPoint([[x,y], [x1,y1]]);
-      new MultiPoint({
-        type: "MultiPoint",
-        coordinates: [x,y]
-      });
-  */
   function MultiPoint(input){
     if(input && input.type === "MultiPoint" && input.coordinates){
       extend(this, input);
@@ -1014,15 +1005,6 @@
     return new Point(this.coordinates[i]);
   };
 
-  /*
-  GeoJSON LineString Class
-      new LineString();
-      new LineString([[x,y], [x1,y1]]);
-      new LineString({
-        type: "LineString",
-        coordinates: [x,y]
-      });
-  */
   function LineString(input){
     if(input && input.type === "LineString" && input.coordinates){
       extend(this, input);
@@ -1050,15 +1032,6 @@
     return this;
   };
 
-  /*
-  GeoJSON MultiLineString Class
-      new MultiLineString();
-      new MultiLineString([ [[x,y], [x1,y1]], [[x2,y2], [x3,y3]] ]);
-      new MultiLineString({
-        type: "MultiLineString",
-        coordinates: [ [[x,y], [x1,y1]], [[x2,y2], [x3,y3]] ]
-      });
-  */
   function MultiLineString(input){
     if(input && input.type === "MultiLineString" && input.coordinates){
       extend(this, input);
@@ -1082,15 +1055,6 @@
     return new LineString(this.coordinates[i]);
   };
 
-  /*
-  GeoJSON Polygon Class
-      new Polygon();
-      new Polygon([ [[x,y], [x1,y1], [x2,y2]] ]);
-      new Polygon({
-        type: "Polygon",
-        coordinates: [ [[x,y], [x1,y1], [x2,y2]] ]
-      });
-  */
   function Polygon(input){
     if(input && input.type === "Polygon" && input.coordinates){
       extend(this, input);
@@ -1121,15 +1085,6 @@
     this.coordinates = closedPolygon(this.coordinates);
   };
 
-  /*
-  GeoJSON MultiPolygon Class
-      new MultiPolygon();
-      new MultiPolygon([ [ [[x,y], [x1,y1]], [[x2,y2], [x3,y3]] ] ]);
-      new MultiPolygon({
-        type: "MultiPolygon",
-        coordinates: [ [ [[x,y], [x1,y1]], [[x2,y2], [x3,y3]] ] ]
-      });
-  */
   function MultiPolygon(input){
     if(input && input.type === "MultiPolygon" && input.coordinates){
       extend(this, input);
@@ -1161,21 +1116,6 @@
     return this;
   };
 
-  /*
-  GeoJSON Feature Class
-      new Feature();
-      new Feature({
-        type: "Feature",
-        geometry: {
-          type: "Polygon",
-          coordinates: [ [ [[x,y], [x1,y1]], [[x2,y2], [x3,y3]] ] ]
-        }
-      });
-      new Feature({
-        type: "Polygon",
-        coordinates: [ [ [[x,y], [x1,y1]], [[x2,y2], [x3,y3]] ] ]
-      });
-  */
   function Feature(input){
     if(input && input.type === "Feature"){
       extend(this, input);
@@ -1191,15 +1131,6 @@
   Feature.prototype = new Primitive();
   Feature.prototype.constructor = Feature;
 
-  /*
-  GeoJSON FeatureCollection Class
-      new FeatureCollection();
-      new FeatureCollection([feature, feature1]);
-      new FeatureCollection({
-        type: "FeatureCollection",
-        coordinates: [feature, feature1]
-      });
-  */
   function FeatureCollection(input){
     if(input && input.type === "FeatureCollection" && input.features){
       extend(this, input);
@@ -1229,15 +1160,6 @@
     return new Feature(found);
   };
 
-  /*
-  GeoJSON GeometryCollection Class
-      new GeometryCollection();
-      new GeometryCollection([geometry, geometry1]);
-      new GeometryCollection({
-        type: "GeometryCollection",
-        coordinates: [geometry, geometry1]
-      });
-  */
   function GeometryCollection(input){
     if(input && input.type === "GeometryCollection" && input.geometries){
       extend(this, input);
@@ -1498,27 +1420,6 @@
   }
 
   // This function flattens holes in multipolygons to one array of polygons
-  // [
-  //   [
-  //     [ array of outer coordinates ]
-  //     [ hole coordinates ]
-  //     [ hole coordinates ]
-  //   ],
-  //   [
-  //     [ array of outer coordinates ]
-  //     [ hole coordinates ]
-  //     [ hole coordinates ]
-  //   ],
-  // ]
-  // becomes
-  // [
-  //   [ array of outer coordinates ]
-  //   [ hole coordinates ]
-  //   [ hole coordinates ]
-  //   [ array of outer coordinates ]
-  //   [ hole coordinates ]
-  //   [ hole coordinates ]
-  // ]
   function flattenMultiPolygonRings(rings){
     var output = [];
     for (var i = 0; i < rings.length; i++) {
@@ -1980,7 +1881,7 @@ module.exports = function geocoder( geocoderInputID, map , featureOverlay){
     $( "#"+ geocoderInputID ).autocomplete({
     source: function( request, response ) {
     $.ajax({
-        url: "http://loc.api.geopunt.be/geolocation/Suggestion",
+        url: "http://loc.api.geopunt.be/v2/Suggestion",
         dataType: "jsonp",
         data: {
             q: request.term + ", Antwerpen",
@@ -2007,7 +1908,7 @@ module.exports = function geocoder( geocoderInputID, map , featureOverlay){
         var adres = ui.item.label;
         
         $.ajax({
-            url: "http://loc.api.geopunt.be/geolocation/Location",
+            url: "http://loc.api.geopunt.be/v2/Location",
             dataType: "jsonp",
             data: {
             q: adres + ", Antwerpen",
@@ -2150,7 +2051,7 @@ module.exports = function MapObj( mapID ){
         source: new ol.source.WMTS({
           attributions: [new ol.Attribution({ html: 
                    'Door <a href="mailto:kaywarrie@gmail.com">Kay Warie</a>, Basiskaart door: <a href="http://www.agiv.be/" target="_blank">AGIV</a>' }) ],
-          url: 'http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/wmts/',
+          url: 'http://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts',
           layer: 'orthoklm',
           matrixSet: 'BPL72VL',
           format: 'image/png',
@@ -2168,7 +2069,7 @@ module.exports = function MapObj( mapID ){
         source: new ol.source.WMTS({
           attributions: [new ol.Attribution({ html: 
                    'Door <a href="mailto:kaywarrie@gmail.com">Kay Warie</a>, Basiskaart door: <a href="http://www.agiv.be/" target="_blank">AGIV</a>' }) ],
-          url: 'http://grb.agiv.be/geodiensten/raadpleegdiensten/geocache/wmts/',
+          url: 'http://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts',
           layer: 'grb_bsk_gr',
           matrixSet: 'BPL72VL',
           format: 'image/png',
