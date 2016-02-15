@@ -2052,7 +2052,7 @@ module.exports = function MapObj( mapID ){
           attributions: [new ol.Attribution({ html: 
                    'Door <a href="mailto:kaywarrie@gmail.com">Kay Warie</a>, Basiskaart door: <a href="http://www.agiv.be/" target="_blank">AGIV</a>' }) ],
           url: 'http://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts',
-          layer: 'orthoklm',
+          layer: 'omwrgbmrvl',
           matrixSet: 'BPL72VL',
           format: 'image/png',
           projection: projection,
@@ -2070,7 +2070,7 @@ module.exports = function MapObj( mapID ){
           attributions: [new ol.Attribution({ html: 
                    'Door <a href="mailto:kaywarrie@gmail.com">Kay Warie</a>, Basiskaart door: <a href="http://www.agiv.be/" target="_blank">AGIV</a>' }) ],
           url: 'http://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts',
-          layer: 'grb_bsk_gr',
+          layer: 'grb_bsk_grijs',
           matrixSet: 'BPL72VL',
           format: 'image/png',
           projection: projection,
