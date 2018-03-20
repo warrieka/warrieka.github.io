@@ -1,0 +1,1085 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://datasets7-o.antwerpen.be/api/dcat>
+  a dcat:Catalog ;
+  dc:title "Open Data Antwerpen" ;
+  dc:description "A catalog of datasets published by Open Data Antwerpen." ;
+  dc:issued "2017-10-04T11:38:17+0000" ;
+  dc:language <http://lexvo.org/id/iso639-3/nld> ;
+  foaf:homepage <http://datasets7-o.antwerpen.be> ;
+  dc:license <http://www.opendefinition.org/licenses/cc-zero> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dc:modified "2017-10-23T13:46:28+0000" ;
+  dcat:dataset <http://datasets7-o.antwerpen.be/leegstandsregister/2017>, <http://datasets7-o.antwerpen.be/gis/brandweerkazernes>, <http://datasets7-o.antwerpen.be/gis/district>, <http://datasets7-o.antwerpen.be/gis/districtshuizen>, <http://datasets7-o.antwerpen.be/gis/districtshuizenvlak>, <http://datasets7-o.antwerpen.be/gis/glascontainer>, <http://datasets7-o.antwerpen.be/gis/hondenloopzone>, <http://datasets7-o.antwerpen.be/gis/openbaartoilet>, <http://datasets7-o.antwerpen.be/gis/postzone>, <http://datasets7-o.antwerpen.be/gis/recyclagepark>, <http://datasets7-o.antwerpen.be/gis/recyclageparkvlak>, <http://datasets7-o.antwerpen.be/gis/speelterreinen>, <http://datasets7-o.antwerpen.be/gis/speelterreinenvlak>, <http://datasets7-o.antwerpen.be/gis/stadskantoren>, <http://datasets7-o.antwerpen.be/gis/statistischesector>, <http://datasets7-o.antwerpen.be/gis/ziekenhuizen>, <http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen>, <http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline>, <http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen>, <http://datasets7-o.antwerpen.be/stadsarchief/ava>, <http://datasets7-o.antwerpen.be/gis/bparuplijnenind>, <http://datasets7-o.antwerpen.be/gis/bparuplijnen>, <http://datasets7-o.antwerpen.be/gis/bparupoverdrukind>, <http://datasets7-o.antwerpen.be/gis/bparupoverdruk>, <http://datasets7-o.antwerpen.be/gis/bparuppuntenind>, <http://datasets7-o.antwerpen.be/gis/bparuppunten>, <http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump>, <http://datasets7-o.antwerpen.be/buurtmonitor/districtdump>, <http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump>, <http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen>, <http://datasets7-o.antwerpen.be/letterenhuis/baetes>, <http://datasets7-o.antwerpen.be/letterenhuis/hs>, <http://datasets7-o.antwerpen.be/letterenhuis/grell>, <http://datasets7-o.antwerpen.be/personeelstad/bezetting>, <http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart>, <http://datasets7-o.antwerpen.be/gis/barbecues>, <http://datasets7-o.antwerpen.be/gis/barriere>, <http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail>, <http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht>, <http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt>, <http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel>, <http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte>, <http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen>, <http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt>, <http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel>, <http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk>, <http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel>, <http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel>, <http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel>, <http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel> .
+
+<http://lexvo.org/id/iso639-3/nld> a dc:LinguisticSystem .
+<http://www.opendefinition.org/licenses/cc-zero> a dc:LicenseDocument .
+<http://opendata.antwerpen.be>
+  a foaf:Agent ;
+  foaf:name "Stad Antwerpen", "Brandweer Antwerpen", "Stadsontwikkeling/planningscel", "Stads- en buurtonderhoud/stadsreiniging", "Stadsontwikkeling/Openbaar domein", "PO", "B-post", "Stadsontwikkeling/cel Omgevingsinformatie", "Cultuur, Sport en Jeugd ism Studiedienst Antwerpen / GIS", "Sociale Zaken", "SSO/STAT", "Stad Antwerpen/SW", "Stadsontwikkeling/archeologie", "Stad Antwerpen/SB" .
+
+<http://datasets7-o.antwerpen.be/leegstandsregister/2017>
+  a dcat:Dataset ;
+  dc:title "Leegstandsregister" ;
+  dc:description """Samenvatting
+Deze informatie is een weergave van de officiële Vlaamse inventaris van leegstaande en/of verwaarloosde bedrijfsruimten van de stad Antwerpen, zoals 10 dagen openbaar gemaakt in september 2016.
+
+Doel
+Deze informatie laat toe om de leegstaande en verwaarloosde bedrijfspanden in Antwerpen die in de Vlaamse inventaris in augustus 2016 opgenomen waren te raadplegen.
+
+Aanmaak
+Jaarlijks""" ;
+  dc:identifier "leegstandsregister/2017" ;
+  dc:issued "2017-10-04T11:43:17+0000" ;
+  dc:modified "2017-10-23T13:46:28+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/leegstandsregister/2017> ;
+  dcat:contactPoint <https://opendata.antwerpen.be> ;
+  dc:publisher <https://opendata.antwerpen.be> ;
+  dc:language <http://lexvo.org/id/iso639-3/nld> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/leegstandsregister/2017.json> .
+
+<https://opendata.antwerpen.be>
+  a foaf:Agent ;
+  foaf:name "Stad Antwerpen" .
+
+<http://datasets7-o.antwerpen.be/leegstandsregister/2017.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/leegstandsregister/2017> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/leegstandsregister/2017.json> ;
+  dc:title "Leegstandsregister" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/leegstandsregister/2017" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-04T11:43:17+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> a dc:LicenseDocument .
+<http://datasets7-o.antwerpen.be/gis/brandweerkazernes>
+  a dcat:Dataset ;
+  dc:title "gis/brandweerkazernes" ;
+  dc:description "De locatie van de locaties van de brandweerkazernes kan - al dan niet in combinatie met de andere thema's omtrent veiligheid - gebruikt worden als ondersteunend instrument voor de dienstverlening en het beleid van de verschillende diensten of bedrijfseenheden." ;
+  dc:identifier "gis/brandweerkazernes" ;
+  dc:issued "2017-10-23T13:40:01+0000" ;
+  dc:modified "2017-10-23T13:40:01+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/brandweerkazernes> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/brandweerkazernes.json> .
+
+<http://datasets7-o.antwerpen.be/gis/brandweerkazernes.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/brandweerkazernes> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/brandweerkazernes.json> ;
+  dc:title "gis/brandweerkazernes" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/brandweerkazernes" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:01+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/district>
+  a dcat:Dataset ;
+  dc:title "gis/district" ;
+  dc:description "Samenvatting:Begrenzing van de districten, de indeling van het grondgebied van de stad Antwerpen met eigen bevoegdheid op lokaal vlak. Doel:De dataset vormt de grootschalige basis van het Geografisch Informatie Systeem van de stad Antwerpen, als ondersteunend instrument voor de dienstverlening en het beleid van de verschillende diensten of bedrijfseenheden. Aanmaak:De districtsgrens werd bepaald op basis van de midschalige districtsgrens en waar nodig gecorrigeerd op basis van de gebouwen, percelen en wegen uit de grootschalige basiskaart. De begrenzing van de districten met de aanpalende gemeenten valt samen met de stadsgrens." ;
+  dc:identifier "gis/district" ;
+  dc:issued "2017-10-23T13:40:01+0000" ;
+  dc:modified "2017-10-23T13:40:01+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/district> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/district.json> .
+
+<http://datasets7-o.antwerpen.be/gis/district.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/district> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/district.json> ;
+  dc:title "gis/district" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/district" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:01+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/districtshuizen>
+  a dcat:Dataset ;
+  dc:title "gis/districtshuizen" ;
+  dc:description "Samenvatting:Localisatie van de districtshuizen van de stad Antwerpen. Doel:Beheer van patrimonium en mogelijkheid tot maken van omgevingsanalyses Aanmaak:De inventarisatie gebeurde op basis van de gegevens op de website van de stad Antwerpen. De adresvelden werden gebruikt om de districtshuizen te koppelen aan de Grootschalige basiskaart. Elke voorziening heeft een laagste niveau (Lgste_Niv) en een hoogste niveau (Hgste_Niv) van bereik/ uitstraling. De volgende niveaus komen aan bod: buurt (400m), wijk (800m), stadsdeel (district of postcode), stedelijk (voor heel de stad), stadsgewest, nationaal of internationaal. GrondOpp is de grondoppervlakte van het gebouw of het perceel." ;
+  dc:identifier "gis/districtshuizen" ;
+  dc:issued "2017-10-23T13:40:02+0000" ;
+  dc:modified "2017-10-23T13:40:02+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/districtshuizen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/districtshuizen.json> .
+
+<http://datasets7-o.antwerpen.be/gis/districtshuizen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/districtshuizen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/districtshuizen.json> ;
+  dc:title "gis/districtshuizen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/districtshuizen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:02+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/districtshuizenvlak>
+  a dcat:Dataset ;
+  dc:title "gis/districtshuizenvlak" ;
+  dc:description "/" ;
+  dc:identifier "gis/districtshuizenvlak" ;
+  dc:issued "2017-10-23T13:40:02+0000" ;
+  dc:modified "2017-10-23T13:40:02+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/districtshuizenvlak> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/districtshuizenvlak.json> .
+
+<http://datasets7-o.antwerpen.be/gis/districtshuizenvlak.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/districtshuizenvlak> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/districtshuizenvlak.json> ;
+  dc:title "gis/districtshuizenvlak" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/districtshuizenvlak" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:02+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/glascontainer>
+  a dcat:Dataset ;
+  dc:title "gis/glascontainer" ;
+  dc:description "Samenvatting:Al de glascontainers zowel op de openbare weg als enkele op prive locatie. De dataset bevat de glascontainers van gans het grondgebied Stad Antwerpen Doel:Ondersteunend element naar dienstverlening en beleid van Stad Antwerpen. Aanmaak:Punten op het terrein ingetekend op gedetailleerde plans die vanuit het project afgedrukt werden." ;
+  dc:identifier "gis/glascontainer" ;
+  dc:issued "2017-10-23T13:40:03+0000" ;
+  dc:modified "2017-10-23T13:40:03+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/glascontainer> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/glascontainer.json> .
+
+<http://datasets7-o.antwerpen.be/gis/glascontainer.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/glascontainer> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/glascontainer.json> ;
+  dc:title "gis/glascontainer" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/glascontainer" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:03+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/hondenloopzone>
+  a dcat:Dataset ;
+  dc:title "gis/hondenloopzone" ;
+  dc:description "Samenvatting:Een hondenloopzone is een door de stad afgebakend terrein: omheind en aangeduid door een bord. Hondenloopzones zijn de enige plaatsen in de stad waar een hond op het openbaar domein mag los lopen (niet aangelijnd). Deze terreinen hebben een omheining, poort, vuilbak en een bord en zijn soms ook voorzien van verlichting en één of meerdere banken. Volgens de mogelijkheden kan een hondenloopzone vrij klein of heen groot zijn, een grotere hondenloopzone heeft dan ook meer faciliteiten (meer zitbanken, meerdere ingangen, enz.). Een hondenloopzone wordt aangelegd door de stad of het district en door stadspersoneel onderhouden. Doel:Locaties van de hondenloopzones kan gebruikt worden als ondersteunend instrument voor de dienstverlening en i.f.v. omgevingsanalyses b.v. i.v.m. bereikbaarheid. Aanmaak:Inventarisatie ter plaatse" ;
+  dc:identifier "gis/hondenloopzone" ;
+  dc:issued "2017-10-23T13:40:03+0000" ;
+  dc:modified "2017-10-23T13:40:03+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/hondenloopzone> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/hondenloopzone.json> .
+
+<http://datasets7-o.antwerpen.be/gis/hondenloopzone.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/hondenloopzone> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/hondenloopzone.json> ;
+  dc:title "gis/hondenloopzone" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/hondenloopzone" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:03+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/openbaartoilet>
+  a dcat:Dataset ;
+  dc:title "gis/openbaartoilet" ;
+  dc:description "Samenvatting:Overzicht van de publiek toegankelijke toiletten en urinoirs, zowel in openbare gebouwen als op het publiek domein.Aanmaak: Overzicht van alle actieve locaties aangevuld met beheersinformatie en openingstijden. Doel:Gebruikt als bron voor het toilettenplan (A 1) en voor publicatie op de website (www.antwerpen.be)." ;
+  dc:identifier "gis/openbaartoilet" ;
+  dc:issued "2017-10-23T13:40:04+0000" ;
+  dc:modified "2017-10-23T13:40:04+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/openbaartoilet> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/openbaartoilet.json> .
+
+<http://datasets7-o.antwerpen.be/gis/openbaartoilet.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/openbaartoilet> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/openbaartoilet.json> ;
+  dc:title "gis/openbaartoilet" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/openbaartoilet" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:04+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/postzone>
+  a dcat:Dataset ;
+  dc:title "gis/postzone" ;
+  dc:description "Polygonen van de postcodezones." ;
+  dc:identifier "gis/postzone" ;
+  dc:issued "2017-10-23T13:40:04+0000" ;
+  dc:modified "2017-10-23T13:40:04+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/postzone> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/postzone.json> .
+
+<http://datasets7-o.antwerpen.be/gis/postzone.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/postzone> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/postzone.json> ;
+  dc:title "gis/postzone" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/postzone" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:04+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/recyclagepark>
+  a dcat:Dataset ;
+  dc:title "gis/recyclagepark" ;
+  dc:description "Samenvatting:Een recyclagepark is een plaats waar je, als particulier, terecht kunt met al je huishoudelijk afval (uitgezonderd restafval en groente-, fruit- en ander keukenafval). Een toezichter wijst waar je je meegebrachte afvalstoffen mag deponeren. Op deze manier worden de materialen selectief ingezameld en kunnen ze later, al dan niet na een voorafgaande bewerking, worden hergebruikt als grondstof. Alle parken zijn enkel toegankelijk voor particulieren die in Antwerpen wonen. Bedrijven, zelfstandigen, verenigingen, vzw's, ... kunnen hier dus niet terecht met hun afval. Zij dienen - volgens de regels van het afvalstoffendecreet en het huishoudelijk reglement van vzw Recyclant - zelf in te staan voor de verwerking van de door hun ontstane afvalstoffen. Een lijst van wat wel en niet naar een recyclagepark mag staat op de website http://milieu.antwerpen.be/MIDA/ Doel:De geo-laag geeft de exacte locatie en bijkomende informatie van de recyclageparken weer. Ze kan onder meer gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid. Aanmaak:Aangemaakt op basis van de gegevens van de milieudienst, Slachthuislaan. Elke voorziening heeft een laagste niveau (Lgste_Niv) en een hoogste niveau (Hgste_Niv) van bereik/ uitstraling. De volgende niveaus komen aan bod: buurt (400m), wijk (800m), stadsdeel (district of postcode), stedelijk (voor heel de stad), stadsgewest, nationaal of internationaal. GrondOpp is de grondoppervlakte van het gebouw of het perceel." ;
+  dc:identifier "gis/recyclagepark" ;
+  dc:issued "2017-10-23T13:40:04+0000" ;
+  dc:modified "2017-10-23T13:40:04+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/recyclagepark> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/recyclagepark.json> .
+
+<http://datasets7-o.antwerpen.be/gis/recyclagepark.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/recyclagepark> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/recyclagepark.json> ;
+  dc:title "gis/recyclagepark" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/recyclagepark" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:04+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/recyclageparkvlak>
+  a dcat:Dataset ;
+  dc:title "gis/recyclageparkvlak" ;
+  dc:description "Samenvatting:Een recyclagepark is een plaats waar je, als particulier, terecht kunt met al je huishoudelijk afval (uitgezonderd restafval en groente-, fruit- en ander keukenafval). Een toezichter wijst waar je je meegebrachte afvalstoffen mag deponeren. Op deze manier worden de materialen selectief ingezameld en kunnen ze later, al dan niet na een voorafgaande bewerking, worden hergebruikt als grondstof. Alle parken zijn enkel toegankelijk voor particulieren die in Antwerpen wonen. Bedrijven, zelfstandigen, verenigingen, vzw's, ... kunnen hier dus niet terecht met hun afval. Zij dienen - volgens de regels van het afvalstoffendecreet en het huishoudelijk reglement van vzw Recyclant - zelf in te staan voor de verwerking van de door hun ontstane afvalstoffen. Een lijst van wat wel en niet naar een recyclagepark mag staat op de website http://milieu.antwerpen.be/MIDA/ Doel:De geo-laag geeft de exacte locatie en bijkomende informatie van de recyclageparken weer. Ze kan onder meer gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid. Aanmaak:Aangemaakt op basis van de gegevens van de milieudienst, Slachthuislaan. Elke voorziening heeft een laagste niveau (Lgste_Niv) en een hoogste niveau (Hgste_Niv) van bereik/ uitstraling. De volgende niveaus komen aan bod: buurt (400m), wijk (800m), stadsdeel (district of postcode), stedelijk (voor heel de stad), stadsgewest, nationaal of internationaal. GrondOpp is de grondoppervlakte van het gebouw of het perceel." ;
+  dc:identifier "gis/recyclageparkvlak" ;
+  dc:issued "2017-10-23T13:40:05+0000" ;
+  dc:modified "2017-10-23T13:40:05+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/recyclageparkvlak> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/recyclageparkvlak.json> .
+
+<http://datasets7-o.antwerpen.be/gis/recyclageparkvlak.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/recyclageparkvlak> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/recyclageparkvlak.json> ;
+  dc:title "gis/recyclageparkvlak" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/recyclageparkvlak" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:05+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/speelterreinen>
+  a dcat:Dataset ;
+  dc:title "gis/speelterreinen" ;
+  dc:description "Samenvatting:Localisatie en documentatie van alle speelterreinen van de stad Antwerpen. Doel:De geo-laag geeft de exacte locatie en bijkomende informatie van de speelterreinen weer. Ze kan onder meer gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid.Aanmaak:Speelterreinen worden gedefinieerd als:\"(speel)terreinen op het openbaar domein waar speeltoestellen voorzien zijn\". Grondopp en Gemetenopp zijn dezelfde: de grondoppervlakte van het ingetekende speelterrein." ;
+  dc:identifier "gis/speelterreinen" ;
+  dc:issued "2017-10-23T13:40:05+0000" ;
+  dc:modified "2017-10-23T13:40:05+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/speelterreinen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/speelterreinen.json> .
+
+<http://datasets7-o.antwerpen.be/gis/speelterreinen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/speelterreinen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/speelterreinen.json> ;
+  dc:title "gis/speelterreinen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/speelterreinen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:05+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/speelterreinenvlak>
+  a dcat:Dataset ;
+  dc:title "gis/speelterreinenvlak" ;
+  dc:description "Samenvatting:Localisatie en documentatie van alle speelterreinen van de stad Antwerpen. Doel:De geo-laag geeft de exacte locatie en bijkomende informatie van de speelterreinen weer. Ze kan onder meer gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid.Aanmaak:Speelterreinen worden gedefinieerd als:\"(speel)terreinen op het openbaar domein waar speeltoestellen voorzien zijn\". Grondopp en Gemetenopp zijn dezelfde: de grondoppervlakte van het ingetekende speelterrein." ;
+  dc:identifier "gis/speelterreinenvlak" ;
+  dc:issued "2017-10-23T13:40:06+0000" ;
+  dc:modified "2017-10-23T13:40:06+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/speelterreinenvlak> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/speelterreinenvlak.json> .
+
+<http://datasets7-o.antwerpen.be/gis/speelterreinenvlak.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/speelterreinenvlak> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/speelterreinenvlak.json> ;
+  dc:title "gis/speelterreinenvlak" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/speelterreinenvlak" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:06+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/stadskantoren>
+  a dcat:Dataset ;
+  dc:title "gis/stadskantoren" ;
+  dc:description "Samenvatting:Lokalisatie en documentatie van de stadskantoren binnen het grondgebied van de stad Antwerpen. Ter ondersteuning van het districtshuis beschikt de stad over stadskantoren. Net zoals op het districtshuis kan je er terecht voor de aanvraag van persoonlijke documenten. Doel:De geo-laag geeft de exacte locatie van destadskantoren weer en kan gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid. De stadskantoren zijn ingedeeld volgens het volgende subtype: stadskantoor en wijkkantoor. Aanmaak:De inventarisatie gebeurde op basis van de gegevens van de website van de stad Antwerpen. De adresvelden werden gebruikt om de instellingen te koppelen aan de Grootschalige basiskaart. Elke voorziening heeft een laagste niveau (Lgste_Niv) en een hoogste niveau (Hgste_Niv) van bereik/ uitstraling. De volgende niveaus komen aan bod: buurt (400m), wijk (800m), stadsdeel (district of postcode), stedelijk (voor heel de stad), stadsgewest, nationaal of internationaal. GrondOpp is de grondoppervlakte van het perceel." ;
+  dc:identifier "gis/stadskantoren" ;
+  dc:issued "2017-10-23T13:40:06+0000" ;
+  dc:modified "2017-10-23T13:40:06+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/stadskantoren> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/stadskantoren.json> .
+
+<http://datasets7-o.antwerpen.be/gis/stadskantoren.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/stadskantoren> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/stadskantoren.json> ;
+  dc:title "gis/stadskantoren" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/stadskantoren" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:06+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/statistischesector>
+  a dcat:Dataset ;
+  dc:title "gis/statistischesector" ;
+  dc:description "Samenvatting:De afbakening van de statistische sectoren binnen de stad Antwerpen zoals bepaald door het Nationaal Instituut voor de Statistiek (NIS), ingetekend op de grootschalige basiskaart. Het begrip 'statistische sector' werd vanaf 1970 ingevoerd door het Nationaal Instituut voor Statistiek. De statistische sectoren delen het grondgebied in op basis van morfologische en/of socio-economische kenmerken. De begrenzing van statistische sectoren valt meestal samen met duidelijk in het landschap herkenbare elementen. Deze data bevat de statistische sectoren zoals ze in 2001 aangepast werden door het NIS Doel:Deze verdeling van het volledige grondgebied wordt als basis gebruikt voor de aanmaak en voorstelling van statische gegevens van diverse diensten binnen stad en OCMW. Aanmaak:Officiële lijst van het NIS met de afbakening van de statistiche sectoren werd grootschalig ingetekend, waarbij ten minste de gebouwpunten in de juiste sector gelegen zijn." ;
+  dc:identifier "gis/statistischesector" ;
+  dc:issued "2017-10-23T13:40:07+0000" ;
+  dc:modified "2017-10-23T13:40:07+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/statistischesector> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/statistischesector.json> .
+
+<http://datasets7-o.antwerpen.be/gis/statistischesector.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/statistischesector> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/statistischesector.json> ;
+  dc:title "gis/statistischesector" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/statistischesector" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:07+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/ziekenhuizen>
+  a dcat:Dataset ;
+  dc:title "gis/ziekenhuizen" ;
+  dc:description "De geo-laag geeft de exacte lokaties van de ziekenhuizen en poliklinieken weer en kan gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid.De inventarisatie gebeurde op basis van de gegevens van het Agentschap Zorg en Gezondheid. De adresvelden werden gebruikt om de instellingen te koppelen aan de Grootschalige basiskaart." ;
+  dc:identifier "gis/ziekenhuizen" ;
+  dc:issued "2017-10-23T13:40:08+0000" ;
+  dc:modified "2017-10-23T13:40:08+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/ziekenhuizen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/ziekenhuizen.json> .
+
+<http://datasets7-o.antwerpen.be/gis/ziekenhuizen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/ziekenhuizen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/ziekenhuizen.json> ;
+  dc:title "gis/ziekenhuizen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/ziekenhuizen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:08+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen>
+  a dcat:Dataset ;
+  dc:title "adlib/rubenianumtentoonstellingen" ;
+  dc:description "/" ;
+  dc:identifier "adlib/rubenianumtentoonstellingen" ;
+  dc:issued "2017-10-23T13:40:09+0000" ;
+  dc:modified "2017-10-23T13:40:09+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen.json> .
+
+<http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen.json> ;
+  dc:title "adlib/rubenianumtentoonstellingen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/adlib/rubenianumtentoonstellingen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:09+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline>
+  a dcat:Dataset ;
+  dc:title "adlib/rubenianumrubensonline" ;
+  dc:description "/" ;
+  dc:identifier "adlib/rubenianumrubensonline" ;
+  dc:issued "2017-10-23T13:40:09+0000" ;
+  dc:modified "2017-10-23T13:40:09+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline.json> .
+
+<http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline.json> ;
+  dc:title "adlib/rubenianumrubensonline" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/adlib/rubenianumrubensonline" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:09+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen>
+  a dcat:Dataset ;
+  dc:title "adlib/rubenianumpersonen" ;
+  dc:description "/" ;
+  dc:identifier "adlib/rubenianumpersonen" ;
+  dc:issued "2017-10-23T13:40:09+0000" ;
+  dc:modified "2017-10-23T13:40:09+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen.json> .
+
+<http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen.json> ;
+  dc:title "adlib/rubenianumpersonen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/adlib/rubenianumpersonen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:09+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/stadsarchief/ava>
+  a dcat:Dataset ;
+  dc:title "stadsarchief/ava" ;
+  dc:description "/" ;
+  dc:identifier "stadsarchief/ava" ;
+  dc:issued "2017-10-23T13:40:11+0000" ;
+  dc:modified "2017-10-23T13:40:11+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/stadsarchief/ava> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/stadsarchief/ava.json> .
+
+<http://datasets7-o.antwerpen.be/stadsarchief/ava.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/stadsarchief/ava> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/stadsarchief/ava.json> ;
+  dc:title "stadsarchief/ava" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/stadsarchief/ava" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:11+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuplijnenind>
+  a dcat:Dataset ;
+  dc:title "gis/bparuplijnenind" ;
+  dc:description "Samenvatting:De plannen van aanleg worden in de wet op de stedebouw (decreet betreffende de ruimtelijke ordening, gecoördineerd op 22 oktober 1996) omschreven; bedoeld zijn het gewestplan, het algemeen plan van aanleg (A.P.A.) en bijzonder plan van aanleg (B.P.A.). Een bijzonder plan van aanleg geeft voor het betrokken deel van het gemeentelijk grondgebied volgende elementen aan: de bestaande toestand; de gedetailleerde bestemming van verschillende delen van het grondgebied voor bewoning, nijverheid, landbouw of enig ander gebruik; het tracé van alle in het bestaande verkeerswegennet te brengen wijzigingen; de voorschriften betreffende de plaatsing, de grootte en de welstand van de gebouwen en afsluitingen, alsmede die betreffende de binnenplaatsen en tuinen. Het kan bovendien aangeven: de voorschriften betreffende het aanleggen en uitrusten van de wegen, de bouwvrije stroken en de beplantingen; de plaatsen die bestemd worden voor het aanleggen van groene ruimten, bosreservaten, sportvelden en begraafplaatsen, alsmede voor openbare gebouwen en voor monumenten; indien een ruilverkaveling of herverkaveling nodig blijkt, de grenzen van de nieuwe kavels, onder vermelding dat die grenzen door het schepencollege kunnen worden gewijzigd met goedkeuring van de Vlaamse regering. De hierboven opgesomde voorschriften kunnen eigendomsbeperkingen inhouden, met inbegrip van bouwverbod. Wanneer een streek-, gewest- of algemeen plan bestaat, richt het bijzonder plan zich naar de aanwijzingen en bepalingen ervan, en vult ze aan. Het kan er desnoods van afwijken. Sinds het nieuw decreet op de ruimtelijke ordening van 18 mei 1999 (DRO) wordt het vroegere systeem van gewestplanwijzigingen en BPA's vervangen door de meer flexibele Ruimtelijke UitvoeringsPlannen (RUP's), Deze worden opgemaakt door de 3 bevoegdheisniveau's nl, gemeente, provincie en gewest op basis van het subsidiariteitsprincipe, Deze plannen worden opgemaakt om uitvoering te geven aan de ruimtelijke structuurplannen en worden bijgevolg steeds opgemaakt vertrekkende vanuit de visie van een ruimtelijk structuurplan, Deze laatste zijn strategische beleidsplannen die voor een bepaalde plantermijn aangeven hoe de ruimte van het betrokken grondgebied ontwikkeld en beheerd zal worden, Een RUP bevat elementen van bestemming, beheer en inrichting, Deze informatie zit vervat in stedenbouwkundige voorschriften die van toepassing zijn op een stuk grondgebied en bijgevolg en ruimtelijke link hebben (al dan niet perceelsgebonden) De hier gepubliceerde laag 'BPA-RUP-grondvlak (actuele toestand)' is een digitale vectoriële versie van de samengevoegde geactualiseerde BPA's en RUP's voor Antwerpen en wordt best gebruikt in combinatie met de gegeorefereerde scans van de originele analoge (papieren) plannen. De laag is een onderdeel van een meer uitgebreid bestand dat is opgebouwd uit 9 lagen namelijk de BPA-RUP-grondvlakken, de overdrukken (in 2 lagen op basis van al of niet geometrisch nauwkeurig), de lijnen(in 2 lagen op basis van al of niet geometrisch nauwkeurig), de punten(in 2 lagen op basis van al of niet geometrisch nauwkeurig), een laag voor de eventuele deelzones binnen het RUP en de BPA- of RUP-contour (onderdeel van het plannenregister) . Hier worden enkel de geactualiseerde bestemmingsgebieden (de zogenaamde 'grondkleur' bv, 'zone voor kantoren') van de rechtsgeldige BPA's en RUP's weergegeven en gedocumenteerd. Deze laag is per definitie niet-overlappend binnen éénzelfde BPA of RUP,(in tegenstelling tot de overdruklaag die wel overlappende delen kan bevatten). Opbouw lagen volgens richtlijn op http://www2.vlaanderen.be/ruimtelijk/registers/digirups/digirups.html. Voor de gemeentelijke RUPs van Antwerpen wordt voor de hoofdbestemming gekozen uit de lijst uit het handboek RUPs. (hierop wordt de inkleuring ook gebaseerd) Doel:De bestemmingscontouren dienen ter ondersteuning van de ruimtelijke planning en adviesverlening in Antwerpen op alle beleidsniveaus. Het is een belangrijke informatielaag bij de voorbereiding, uitvoering en evaluatie van het beleid via ruimtelijke analyse, kartografie, en geautomatiseerde dossierafhandeling. Aanmaak:Digitalisatie van de BPA-bestemmingen van de rechtsgeldige BPA’s adhv de ingescande en gegeorefereerde scans.Recente BPA's en Gemeentelijke RUP's worden aangelverd in GIS-formaat, De provinciale en gewestelijke RUP's worden decretaal verplicht in GIS aangeleverd door de betreffende overheid." ;
+  dc:identifier "gis/bparuplijnenind" ;
+  dc:issued "2017-10-23T13:40:12+0000" ;
+  dc:modified "2017-10-23T13:40:12+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bparuplijnenind> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bparuplijnenind.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuplijnenind.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bparuplijnenind> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bparuplijnenind.json> ;
+  dc:title "gis/bparuplijnenind" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bparuplijnenind" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:12+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuplijnen>
+  a dcat:Dataset ;
+  dc:title "gis/bparuplijnen" ;
+  dc:description "Samenvatting:De plannen van aanleg worden in de wet op de stedebouw (decreet betreffende de ruimtelijke ordening, gecoördineerd op 22 oktober 1996) omschreven; bedoeld zijn het gewestplan, het algemeen plan van aanleg (A.P.A.) en bijzonder plan van aanleg (B.P.A.). Een bijzonder plan van aanleg geeft voor het betrokken deel van het gemeentelijk grondgebied volgende elementen aan: de bestaande toestand; de gedetailleerde bestemming van verschillende delen van het grondgebied voor bewoning, nijverheid, landbouw of enig ander gebruik; het tracé van alle in het bestaande verkeerswegennet te brengen wijzigingen; de voorschriften betreffende de plaatsing, de grootte en de welstand van de gebouwen en afsluitingen, alsmede die betreffende de binnenplaatsen en tuinen. Het kan bovendien aangeven: de voorschriften betreffende het aanleggen en uitrusten van de wegen, de bouwvrije stroken en de beplantingen; de plaatsen die bestemd worden voor het aanleggen van groene ruimten, bosreservaten, sportvelden en begraafplaatsen, alsmede voor openbare gebouwen en voor monumenten; indien een ruilverkaveling of herverkaveling nodig blijkt, de grenzen van de nieuwe kavels, onder vermelding dat die grenzen door het schepencollege kunnen worden gewijzigd met goedkeuring van de Vlaamse regering. De hierboven opgesomde voorschriften kunnen eigendomsbeperkingen inhouden, met inbegrip van bouwverbod. Wanneer een streek-, gewest- of algemeen plan bestaat, richt het bijzonder plan zich naar de aanwijzingen en bepalingen ervan, en vult ze aan. Het kan er desnoods van afwijken. Sinds het nieuw decreet op de ruimtelijke ordening van 18 mei 1999 (DRO) wordt het vroegere systeem van gewestplanwijzigingen en BPA's vervangen door de meer flexibele Ruimtelijke UitvoeringsPlannen (RUP's), Deze worden opgemaakt door de 3 bevoegdheisniveau's nl, gemeente, provincie en gewest op basis van het subsidiariteitsprincipe, Deze plannen worden opgemaakt om uitvoering te geven aan de ruimtelijke structuurplannen en worden bijgevolg steeds opgemaakt vertrekkende vanuit de visie van een ruimtelijk structuurplan, Deze laatste zijn strategische beleidsplannen die voor een bepaalde plantermijn aangeven hoe de ruimte van het betrokken grondgebied ontwikkeld en beheerd zal worden, Een RUP bevat elementen van bestemming, beheer en inrichting, Deze informatie zit vervat in stedenbouwkundige voorschriften die van toepassing zijn op een stuk grondgebied en bijgevolg en ruimtelijke link hebben (al dan niet perceelsgebonden) De hier gepubliceerde laag 'BPA-RUP-grondvlak (actuele toestand)' is een digitale vectoriële versie van de samengevoegde geactualiseerde BPA's en RUP's voor Antwerpen en wordt best gebruikt in combinatie met de gegeorefereerde scans van de originele analoge (papieren) plannen. De laag is een onderdeel van een meer uitgebreid bestand dat is opgebouwd uit 9 lagen namelijk de BPA-RUP-grondvlakken, de overdrukken (in 2 lagen op basis van al of niet geometrisch nauwkeurig), de lijnen(in 2 lagen op basis van al of niet geometrisch nauwkeurig), de punten(in 2 lagen op basis van al of niet geometrisch nauwkeurig), een laag voor de eventuele deelzones binnen het RUP en de BPA- of RUP-contour (onderdeel van het plannenregister) . Hier worden enkel de geactualiseerde bestemmingsgebieden (de zogenaamde 'grondkleur' bv, 'zone voor kantoren') van de rechtsgeldige BPA's en RUP's weergegeven en gedocumenteerd. Deze laag is per definitie niet-overlappend binnen éénzelfde BPA of RUP,(in tegenstelling tot de overdruklaag die wel overlappende delen kan bevatten). Opbouw lagen volgens richtlijn op http://www2.vlaanderen.be/ruimtelijk/registers/digirups/digirups.html. Voor de gemeentelijke RUPs van Antwerpen wordt voor de hoofdbestemming gekozen uit de lijst uit het handboek RUPs. (hierop wordt de inkleuring ook gebaseerd) Doel:De bestemmingscontouren dienen ter ondersteuning van de ruimtelijke planning en adviesverlening in Antwerpen op alle beleidsniveaus. Het is een belangrijke informatielaag bij de voorbereiding, uitvoering en evaluatie van het beleid via ruimtelijke analyse, kartografie, en geautomatiseerde dossierafhandeling. Aanmaak:Digitalisatie van de BPA-bestemmingen van de rechtsgeldige BPA’s adhv de ingescande en gegeorefereerde scans.Recente BPA's en Gemeentelijke RUP's worden aangelverd in GIS-formaat, De provinciale en gewestelijke RUP's worden decretaal verplicht in GIS aangeleverd door de betreffende overheid," ;
+  dc:identifier "gis/bparuplijnen" ;
+  dc:issued "2017-10-23T13:40:12+0000" ;
+  dc:modified "2017-10-23T13:40:12+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bparuplijnen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bparuplijnen.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuplijnen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bparuplijnen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bparuplijnen.json> ;
+  dc:title "gis/bparuplijnen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bparuplijnen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:12+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bparupoverdrukind>
+  a dcat:Dataset ;
+  dc:title "gis/bparupoverdrukind" ;
+  dc:description "Samenvatting:De plannen van aanleg worden in de wet op de stedebouw (decreet betreffende de ruimtelijke ordening, gecoördineerd op 22 oktober 1996) omschreven; bedoeld zijn het gewestplan, het algemeen plan van aanleg (A.P.A.) en bijzonder plan van aanleg (B.P.A.). Een bijzonder plan van aanleg geeft voor het betrokken deel van het gemeentelijk grondgebied volgende elementen aan: de bestaande toestand; de gedetailleerde bestemming van verschillende delen van het grondgebied voor bewoning, nijverheid, landbouw of enig ander gebruik; het tracé van alle in het bestaande verkeerswegennet te brengen wijzigingen; de voorschriften betreffende de plaatsing, de grootte en de welstand van de gebouwen en afsluitingen, alsmede die betreffende de binnenplaatsen en tuinen. Het kan bovendien aangeven: de voorschriften betreffende het aanleggen en uitrusten van de wegen, de bouwvrije stroken en de beplantingen; de plaatsen die bestemd worden voor het aanleggen van groene ruimten, bosreservaten, sportvelden en begraafplaatsen, alsmede voor openbare gebouwen en voor monumenten; indien een ruilverkaveling of herverkaveling nodig blijkt, de grenzen van de nieuwe kavels, onder vermelding dat die grenzen door het schepencollege kunnen worden gewijzigd met goedkeuring van de Vlaamse regering. De hierboven opgesomde voorschriften kunnen eigendomsbeperkingen inhouden, met inbegrip van bouwverbod. Wanneer een streek-, gewest- of algemeen plan bestaat, richt het bijzonder plan zich naar de aanwijzingen en bepalingen ervan, en vult ze aan. Het kan er desnoods van afwijken. Sinds het nieuw decreet op de ruimtelijke ordening van 18 mei 1999 (DRO) wordt het vroegere systeem van gewestplanwijzigingen en BPA's vervangen door de meer flexibele Ruimtelijke UitvoeringsPlannen (RUP's), Deze worden opgemaakt door de 3 bevoegdheisniveau's nl, gemeente, provincie en gewest op basis van het subsidiariteitsprincipe, Deze plannen worden opgemaakt om uitvoering te geven aan de ruimtelijke structuurplannen en worden bijgevolg steeds opgemaakt vertrekkende vanuit de visie van een ruimtelijk structuurplan, Deze laatste zijn strategische beleidsplannen die voor een bepaalde plantermijn aangeven hoe de ruimte van het betrokken grondgebied ontwikkeld en beheerd zal worden, Een RUP bevat elementen van bestemming, beheer en inrichting, Deze informatie zit vervat in stedenbouwkundige voorschriften die van toepassing zijn op een stuk grondgebied en bijgevolg en ruimtelijke link hebben (al dan niet perceelsgebonden) De hier gepubliceerde laag 'BPA-RUP-grondvlak (actuele toestand)' is een digitale vectoriële versie van de samengevoegde geactualiseerde BPA's en RUP's voor Antwerpen en wordt best gebruikt in combinatie met de gegeorefereerde scans van de originele analoge (papieren) plannen. De laag is een onderdeel van een meer uitgebreid bestand dat is opgebouwd uit 9 lagen namelijk de BPA-RUP-grondvlakken, de overdrukken (in 2 lagen op basis van al of niet geometrisch nauwkeurig), de lijnen(in 2 lagen op basis van al of niet geometrisch nauwkeurig), de punten(in 2 lagen op basis van al of niet geometrisch nauwkeurig), een laag voor de eventuele deelzones binnen het RUP en de BPA- of RUP-contour (onderdeel van het plannenregister) . Hier worden enkel de geactualiseerde bestemmingsgebieden (de zogenaamde 'grondkleur' bv, 'zone voor kantoren') van de rechtsgeldige BPA's en RUP's weergegeven en gedocumenteerd. Deze laag is per definitie niet-overlappend binnen éénzelfde BPA of RUP,(in tegenstelling tot de overdruklaag die wel overlappende delen kan bevatten). Opbouw lagen volgens richtlijn op http://www2.vlaanderen.be/ruimtelijk/registers/digirups/digirups.html. Voor de gemeentelijke RUPs van Antwerpen wordt voor de hoofdbestemming gekozen uit de lijst uit het handboek RUPs. (hierop wordt de inkleuring ook gebaseerd) Doel:De bestemmingscontouren dienen ter ondersteuning van de ruimtelijke planning en adviesverlening in Antwerpen op alle beleidsniveaus. Het is een belangrijke informatielaag bij de voorbereiding, uitvoering en evaluatie van het beleid via ruimtelijke analyse, kartografie, en geautomatiseerde dossierafhandeling. Aanmaak:Digitalisatie van de BPA-bestemmingen van de rechtsgeldige BPA’s adhv de ingescande en gegeorefereerde scans.Recente BPA's en Gemeentelijke RUP's worden aangelverd in GIS-formaat, De provinciale en gewestelijke RUP's worden decretaal verplicht in GIS aangeleverd door de betreffende overheid," ;
+  dc:identifier "gis/bparupoverdrukind" ;
+  dc:issued "2017-10-23T13:40:13+0000" ;
+  dc:modified "2017-10-23T13:40:13+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bparupoverdrukind> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bparupoverdrukind.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bparupoverdrukind.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bparupoverdrukind> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bparupoverdrukind.json> ;
+  dc:title "gis/bparupoverdrukind" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bparupoverdrukind" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:13+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bparupoverdruk>
+  a dcat:Dataset ;
+  dc:title "gis/bparupoverdruk" ;
+  dc:description "Samenvatting:De plannen van aanleg worden in de wet op de stedebouw (decreet betreffende de ruimtelijke ordening, gecoördineerd op 22 oktober 1996) omschreven; bedoeld zijn het gewestplan, het algemeen plan van aanleg (A.P.A.) en bijzonder plan van aanleg (B.P.A.). Een bijzonder plan van aanleg geeft voor het betrokken deel van het gemeentelijk grondgebied volgende elementen aan: de bestaande toestand; de gedetailleerde bestemming van verschillende delen van het grondgebied voor bewoning, nijverheid, landbouw of enig ander gebruik; het tracé van alle in het bestaande verkeerswegennet te brengen wijzigingen; de voorschriften betreffende de plaatsing, de grootte en de welstand van de gebouwen en afsluitingen, alsmede die betreffende de binnenplaatsen en tuinen. Het kan bovendien aangeven: de voorschriften betreffende het aanleggen en uitrusten van de wegen, de bouwvrije stroken en de beplantingen; de plaatsen die bestemd worden voor het aanleggen van groene ruimten, bosreservaten, sportvelden en begraafplaatsen, alsmede voor openbare gebouwen en voor monumenten; indien een ruilverkaveling of herverkaveling nodig blijkt, de grenzen van de nieuwe kavels, onder vermelding dat die grenzen door het schepencollege kunnen worden gewijzigd met goedkeuring van de Vlaamse regering. De hierboven opgesomde voorschriften kunnen eigendomsbeperkingen inhouden, met inbegrip van bouwverbod. Wanneer een streek-, gewest- of algemeen plan bestaat, richt het bijzonder plan zich naar de aanwijzingen en bepalingen ervan, en vult ze aan. Het kan er desnoods van afwijken. Sinds het nieuw decreet op de ruimtelijke ordening van 18 mei 1999 (DRO) wordt het vroegere systeem van gewestplanwijzigingen en BPA's vervangen door de meer flexibele Ruimtelijke UitvoeringsPlannen (RUP's), Deze worden opgemaakt door de 3 bevoegdheisniveau's nl, gemeente, provincie en gewest op basis van het subsidiariteitsprincipe, Deze plannen worden opgemaakt om uitvoering te geven aan de ruimtelijke structuurplannen en worden bijgevolg steeds opgemaakt vertrekkende vanuit de visie van een ruimtelijk structuurplan, Deze laatste zijn strategische beleidsplannen die voor een bepaalde plantermijn aangeven hoe de ruimte van het betrokken grondgebied ontwikkeld en beheerd zal worden, Een RUP bevat elementen van bestemming, beheer en inrichting, Deze informatie zit vervat in stedenbouwkundige voorschriften die van toepassing zijn op een stuk grondgebied en bijgevolg en ruimtelijke link hebben (al dan niet perceelsgebonden) De hier gepubliceerde laag 'BPA-RUP-grondvlak (actuele toestand)' is een digitale vectoriële versie van de samengevoegde geactualiseerde BPA's en RUP's voor Antwerpen en wordt best gebruikt in combinatie met de gegeorefereerde scans van de originele analoge (papieren) plannen. De laag is een onderdeel van een meer uitgebreid bestand dat is opgebouwd uit 9 lagen namelijk de BPA-RUP-grondvlakken, de overdrukken (in 2 lagen op basis van al of niet geometrisch nauwkeurig), de lijnen(in 2 lagen op basis van al of niet geometrisch nauwkeurig), de punten(in 2 lagen op basis van al of niet geometrisch nauwkeurig), een laag voor de eventuele deelzones binnen het RUP en de BPA- of RUP-contour (onderdeel van het plannenregister) . Hier worden enkel de geactualiseerde bestemmingsgebieden (de zogenaamde 'grondkleur' bv, 'zone voor kantoren') van de rechtsgeldige BPA's en RUP's weergegeven en gedocumenteerd. Deze laag is per definitie niet-overlappend binnen éénzelfde BPA of RUP,(in tegenstelling tot de overdruklaag die wel overlappende delen kan bevatten). Opbouw lagen volgens richtlijn op http://www2.vlaanderen.be/ruimtelijk/registers/digirups/digirups.html. Voor de gemeentelijke RUPs van Antwerpen wordt voor de hoofdbestemming gekozen uit de lijst uit het handboek RUPs. (hierop wordt de inkleuring ook gebaseerd) Doel:De bestemmingscontouren dienen ter ondersteuning van de ruimtelijke planning en adviesverlening in Antwerpen op alle beleidsniveaus. Het is een belangrijke informatielaag bij de voorbereiding, uitvoering en evaluatie van het beleid via ruimtelijke analyse, kartografie, en geautomatiseerde dossierafhandeling. Aanmaak:Digitalisatie van de BPA-bestemmingen van de rechtsgeldige BPA’s adhv de ingescande en gegeorefereerde scans.Recente BPA's en Gemeentelijke RUP's worden aangelverd in GIS-formaat, De provinciale en gewestelijke RUP's worden decretaal verplicht in GIS aangeleverd door de betreffende overheid," ;
+  dc:identifier "gis/bparupoverdruk" ;
+  dc:issued "2017-10-23T13:40:13+0000" ;
+  dc:modified "2017-10-23T13:40:13+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bparupoverdruk> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bparupoverdruk.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bparupoverdruk.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bparupoverdruk> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bparupoverdruk.json> ;
+  dc:title "gis/bparupoverdruk" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bparupoverdruk" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:13+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuppuntenind>
+  a dcat:Dataset ;
+  dc:title "gis/bparuppuntenind" ;
+  dc:description "Samenvatting:De plannen van aanleg worden in de wet op de stedebouw (decreet betreffende de ruimtelijke ordening, gecoördineerd op 22 oktober 1996) omschreven; bedoeld zijn het gewestplan, het algemeen plan van aanleg (A.P.A.) en bijzonder plan van aanleg (B.P.A.). Een bijzonder plan van aanleg geeft voor het betrokken deel van het gemeentelijk grondgebied volgende elementen aan: de bestaande toestand; de gedetailleerde bestemming van verschillende delen van het grondgebied voor bewoning, nijverheid, landbouw of enig ander gebruik; het tracé van alle in het bestaande verkeerswegennet te brengen wijzigingen; de voorschriften betreffende de plaatsing, de grootte en de welstand van de gebouwen en afsluitingen, alsmede die betreffende de binnenplaatsen en tuinen. Het kan bovendien aangeven: de voorschriften betreffende het aanleggen en uitrusten van de wegen, de bouwvrije stroken en de beplantingen; de plaatsen die bestemd worden voor het aanleggen van groene ruimten, bosreservaten, sportvelden en begraafplaatsen, alsmede voor openbare gebouwen en voor monumenten; indien een ruilverkaveling of herverkaveling nodig blijkt, de grenzen van de nieuwe kavels, onder vermelding dat die grenzen door het schepencollege kunnen worden gewijzigd met goedkeuring van de Vlaamse regering. De hierboven opgesomde voorschriften kunnen eigendomsbeperkingen inhouden, met inbegrip van bouwverbod. Wanneer een streek-, gewest- of algemeen plan bestaat, richt het bijzonder plan zich naar de aanwijzingen en bepalingen ervan, en vult ze aan. Het kan er desnoods van afwijken. Sinds het nieuw decreet op de ruimtelijke ordening van 18 mei 1999 (DRO) wordt het vroegere systeem van gewestplanwijzigingen en BPA's vervangen door de meer flexibele Ruimtelijke UitvoeringsPlannen (RUP's), Deze worden opgemaakt door de 3 bevoegdheisniveau's nl, gemeente, provincie en gewest op basis van het subsidiariteitsprincipe, Deze plannen worden opgemaakt om uitvoering te geven aan de ruimtelijke structuurplannen en worden bijgevolg steeds opgemaakt vertrekkende vanuit de visie van een ruimtelijk structuurplan, Deze laatste zijn strategische beleidsplannen die voor een bepaalde plantermijn aangeven hoe de ruimte van het betrokken grondgebied ontwikkeld en beheerd zal worden, Een RUP bevat elementen van bestemming, beheer en inrichting, Deze informatie zit vervat in stedenbouwkundige voorschriften die van toepassing zijn op een stuk grondgebied en bijgevolg en ruimtelijke link hebben (al dan niet perceelsgebonden) De hier gepubliceerde laag 'BPA-RUP-grondvlak (actuele toestand)' is een digitale vectoriële versie van de samengevoegde geactualiseerde BPA's en RUP's voor Antwerpen en wordt best gebruikt in combinatie met de gegeorefereerde scans van de originele analoge (papieren) plannen. De laag is een onderdeel van een meer uitgebreid bestand dat is opgebouwd uit 9 lagen namelijk de BPA-RUP-grondvlakken, de overdrukken (in 2 lagen op basis van al of niet geometrisch nauwkeurig), de lijnen(in 2 lagen op basis van al of niet geometrisch nauwkeurig), de punten(in 2 lagen op basis van al of niet geometrisch nauwkeurig), een laag voor de eventuele deelzones binnen het RUP en de BPA- of RUP-contour (onderdeel van het plannenregister) . Hier worden enkel de geactualiseerde bestemmingsgebieden (de zogenaamde 'grondkleur' bv, 'zone voor kantoren') van de rechtsgeldige BPA's en RUP's weergegeven en gedocumenteerd. Deze laag is per definitie niet-overlappend binnen éénzelfde BPA of RUP,(in tegenstelling tot de overdruklaag die wel overlappende delen kan bevatten). Opbouw lagen volgens richtlijn op http://www2.vlaanderen.be/ruimtelijk/registers/digirups/digirups.html. Voor de gemeentelijke RUPs van Antwerpen wordt voor de hoofdbestemming gekozen uit de lijst uit het handboek RUPs. (hierop wordt de inkleuring ook gebaseerd) Doel:De bestemmingscontouren dienen ter ondersteuning van de ruimtelijke planning en adviesverlening in Antwerpen op alle beleidsniveaus. Het is een belangrijke informatielaag bij de voorbereiding, uitvoering en evaluatie van het beleid via ruimtelijke analyse, kartografie, en geautomatiseerde dossierafhandeling. Aanmaak:Digitalisatie van de BPA-bestemmingen van de rechtsgeldige BPA’s adhv de ingescande en gegeorefereerde scans.Recente BPA's en Gemeentelijke RUP's worden aangeleverd in GIS-formaat, De provinciale en gewestelijke RUP's worden decretaal verplicht in GIS aangeleverd door de betreffende overheid." ;
+  dc:identifier "gis/bparuppuntenind" ;
+  dc:issued "2017-10-23T13:40:14+0000" ;
+  dc:modified "2017-10-23T13:40:14+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bparuppuntenind> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bparuppuntenind.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuppuntenind.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bparuppuntenind> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bparuppuntenind.json> ;
+  dc:title "gis/bparuppuntenind" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bparuppuntenind" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:14+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuppunten>
+  a dcat:Dataset ;
+  dc:title "gis/bparuppunten" ;
+  dc:description "Samenvatting:De plannen van aanleg worden in de wet op de stedebouw (decreet betreffende de ruimtelijke ordening, gecoördineerd op 22 oktober 1996) omschreven; bedoeld zijn het gewestplan, het algemeen plan van aanleg (A.P.A.) en bijzonder plan van aanleg (B.P.A.). Een bijzonder plan van aanleg geeft voor het betrokken deel van het gemeentelijk grondgebied volgende elementen aan: de bestaande toestand; de gedetailleerde bestemming van verschillende delen van het grondgebied voor bewoning, nijverheid, landbouw of enig ander gebruik; het tracé van alle in het bestaande verkeerswegennet te brengen wijzigingen; de voorschriften betreffende de plaatsing, de grootte en de welstand van de gebouwen en afsluitingen, alsmede die betreffende de binnenplaatsen en tuinen. Het kan bovendien aangeven: de voorschriften betreffende het aanleggen en uitrusten van de wegen, de bouwvrije stroken en de beplantingen; de plaatsen die bestemd worden voor het aanleggen van groene ruimten, bosreservaten, sportvelden en begraafplaatsen, alsmede voor openbare gebouwen en voor monumenten; indien een ruilverkaveling of herverkaveling nodig blijkt, de grenzen van de nieuwe kavels, onder vermelding dat die grenzen door het schepencollege kunnen worden gewijzigd met goedkeuring van de Vlaamse regering. De hierboven opgesomde voorschriften kunnen eigendomsbeperkingen inhouden, met inbegrip van bouwverbod. Wanneer een streek-, gewest- of algemeen plan bestaat, richt het bijzonder plan zich naar de aanwijzingen en bepalingen ervan, en vult ze aan. Het kan er desnoods van afwijken. Sinds het nieuw decreet op de ruimtelijke ordening van 18 mei 1999 (DRO) wordt het vroegere systeem van gewestplanwijzigingen en BPA's vervangen door de meer flexibele Ruimtelijke UitvoeringsPlannen (RUP's), Deze worden opgemaakt door de 3 bevoegdheisniveau's nl, gemeente, provincie en gewest op basis van het subsidiariteitsprincipe, Deze plannen worden opgemaakt om uitvoering te geven aan de ruimtelijke structuurplannen en worden bijgevolg steeds opgemaakt vertrekkende vanuit de visie van een ruimtelijk structuurplan, Deze laatste zijn strategische beleidsplannen die voor een bepaalde plantermijn aangeven hoe de ruimte van het betrokken grondgebied ontwikkeld en beheerd zal worden, Een RUP bevat elementen van bestemming, beheer en inrichting, Deze informatie zit vervat in stedenbouwkundige voorschriften die van toepassing zijn op een stuk grondgebied en bijgevolg en ruimtelijke link hebben (al dan niet perceelsgebonden) De hier gepubliceerde laag 'BPA-RUP-grondvlak (actuele toestand)' is een digitale vectoriële versie van de samengevoegde geactualiseerde BPA's en RUP's voor Antwerpen en wordt best gebruikt in combinatie met de gegeorefereerde scans van de originele analoge (papieren) plannen. De laag is een onderdeel van een meer uitgebreid bestand dat is opgebouwd uit 9 lagen namelijk de BPA-RUP-grondvlakken, de overdrukken (in 2 lagen op basis van al of niet geometrisch nauwkeurig), de lijnen(in 2 lagen op basis van al of niet geometrisch nauwkeurig), de punten(in 2 lagen op basis van al of niet geometrisch nauwkeurig), een laag voor de eventuele deelzones binnen het RUP en de BPA- of RUP-contour (onderdeel van het plannenregister) . Hier worden enkel de geactualiseerde bestemmingsgebieden (de zogenaamde 'grondkleur' bv, 'zone voor kantoren') van de rechtsgeldige BPA's en RUP's weergegeven en gedocumenteerd. Deze laag is per definitie niet-overlappend binnen éénzelfde BPA of RUP,(in tegenstelling tot de overdruklaag die wel overlappende delen kan bevatten). Opbouw lagen volgens richtlijn op http://www2.vlaanderen.be/ruimtelijk/registers/digirups/digirups.html. Voor de gemeentelijke RUPs van Antwerpen wordt voor de hoofdbestemming gekozen uit de lijst uit het handboek RUPs. (hierop wordt de inkleuring ook gebaseerd) Doel:De bestemmingscontouren dienen ter ondersteuning van de ruimtelijke planning en adviesverlening in Antwerpen op alle beleidsniveaus. Het is een belangrijke informatielaag bij de voorbereiding, uitvoering en evaluatie van het beleid via ruimtelijke analyse, kartografie, en geautomatiseerde dossierafhandeling. Aanmaak:Digitalisatie van de BPA-bestemmingen van de rechtsgeldige BPA’s adhv de ingescande en gegeorefereerde scans.Recente BPA's en Gemeentelijke RUP's worden aangeleverd in GIS-formaat, De provinciale en gewestelijke RUP's worden decretaal verplicht in GIS aangeleverd door de betreffende overheid." ;
+  dc:identifier "gis/bparuppunten" ;
+  dc:issued "2017-10-23T13:40:14+0000" ;
+  dc:modified "2017-10-23T13:40:14+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bparuppunten> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bparuppunten.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bparuppunten.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bparuppunten> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bparuppunten.json> ;
+  dc:title "gis/bparuppunten" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bparuppunten" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:14+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump>
+  a dcat:Dataset ;
+  dc:title "buurtmonitor/antwerpendump" ;
+  dc:description "/" ;
+  dc:identifier "buurtmonitor/antwerpendump" ;
+  dc:issued "2017-10-23T13:40:14+0000" ;
+  dc:modified "2017-10-23T13:40:14+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump.json> .
+
+<http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump.json> ;
+  dc:title "buurtmonitor/antwerpendump" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/buurtmonitor/antwerpendump" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:14+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/buurtmonitor/districtdump>
+  a dcat:Dataset ;
+  dc:title "buurtmonitor/districtdump" ;
+  dc:description "/" ;
+  dc:identifier "buurtmonitor/districtdump" ;
+  dc:issued "2017-10-23T13:40:15+0000" ;
+  dc:modified "2017-10-23T13:40:15+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/buurtmonitor/districtdump> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/buurtmonitor/districtdump.json> .
+
+<http://datasets7-o.antwerpen.be/buurtmonitor/districtdump.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/buurtmonitor/districtdump> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/buurtmonitor/districtdump.json> ;
+  dc:title "buurtmonitor/districtdump" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/buurtmonitor/districtdump" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:15+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump>
+  a dcat:Dataset ;
+  dc:title "buurtmonitor/postzonedump" ;
+  dc:description "/" ;
+  dc:identifier "buurtmonitor/postzonedump" ;
+  dc:issued "2017-10-23T13:40:15+0000" ;
+  dc:modified "2017-10-23T13:40:15+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump.json> .
+
+<http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump.json> ;
+  dc:title "buurtmonitor/postzonedump" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/buurtmonitor/postzonedump" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:15+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen>
+  a dcat:Dataset ;
+  dc:title "opruimmeldingen/opruimmeldingen" ;
+  dc:description "/" ;
+  dc:identifier "opruimmeldingen/opruimmeldingen" ;
+  dc:issued "2017-10-23T13:40:16+0000" ;
+  dc:modified "2017-10-23T13:40:16+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen.json> .
+
+<http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen.json> ;
+  dc:title "opruimmeldingen/opruimmeldingen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/opruimmeldingen/opruimmeldingen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:16+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/letterenhuis/baetes>
+  a dcat:Dataset ;
+  dc:title "letterenhuis/baetes" ;
+  dc:description "/" ;
+  dc:identifier "letterenhuis/baetes" ;
+  dc:issued "2017-10-23T13:40:17+0000" ;
+  dc:modified "2017-10-23T13:40:17+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/letterenhuis/baetes> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/letterenhuis/baetes.json> .
+
+<http://datasets7-o.antwerpen.be/letterenhuis/baetes.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/letterenhuis/baetes> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/letterenhuis/baetes.json> ;
+  dc:title "letterenhuis/baetes" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/letterenhuis/baetes" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:17+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/letterenhuis/hs>
+  a dcat:Dataset ;
+  dc:title "letterenhuis/hs" ;
+  dc:description "/" ;
+  dc:identifier "letterenhuis/hs" ;
+  dc:issued "2017-10-23T13:40:17+0000" ;
+  dc:modified "2017-10-23T13:40:17+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/letterenhuis/hs> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/letterenhuis/hs.json> .
+
+<http://datasets7-o.antwerpen.be/letterenhuis/hs.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/letterenhuis/hs> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/letterenhuis/hs.json> ;
+  dc:title "letterenhuis/hs" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/letterenhuis/hs" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:17+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/letterenhuis/grell>
+  a dcat:Dataset ;
+  dc:title "letterenhuis/grell" ;
+  dc:description "/" ;
+  dc:identifier "letterenhuis/grell" ;
+  dc:issued "2017-10-23T13:40:17+0000" ;
+  dc:modified "2017-10-23T13:40:17+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/letterenhuis/grell> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/letterenhuis/grell.json> .
+
+<http://datasets7-o.antwerpen.be/letterenhuis/grell.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/letterenhuis/grell> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/letterenhuis/grell.json> ;
+  dc:title "letterenhuis/grell" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/letterenhuis/grell" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:17+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/personeelstad/bezetting>
+  a dcat:Dataset ;
+  dc:title "personeelstad/bezetting" ;
+  dc:description "/" ;
+  dc:identifier "personeelstad/bezetting" ;
+  dc:issued "2017-10-23T13:40:18+0000" ;
+  dc:modified "2017-10-23T13:40:18+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/personeelstad/bezetting> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/personeelstad/bezetting.json> .
+
+<http://datasets7-o.antwerpen.be/personeelstad/bezetting.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/personeelstad/bezetting> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/personeelstad/bezetting.json> ;
+  dc:title "personeelstad/bezetting" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/personeelstad/bezetting" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:18+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart>
+  a dcat:Dataset ;
+  dc:title "gis/archeologischeadvieskaart" ;
+  dc:description "Samenvatting:De archeologische advieskaart is een beheersinstrument voor een betere integratie van erfgoedwaarden in het ruimtelijk beleid. De kaart verdeelt het grondgebied van de stad Antwerpen in verschillende zones. Voor elke zone wordt aangegeven welke adviesprocedure wenselijk is bij het opmaken van ruimtelijke plannen of het verwerken van stedenbouwkundige aanvragen die ingrepen in de bodem met zich meebrengen. De afbakening van deze zones is niet enkel gebaseerd op archeologische opgravingsgegevens, maar houdt ook rekening met historische, cartografische, iconografische en bodemkundige gegevens. De kaart geeft een algemene indicatie over de archeologische gevoeligheid van een gebied. Doel:De kaart staat ter beschikking van het publiek in het algemeen maar is in de eerste plaats bedoeld voor ruimtelijke planners en de medewerkers van de afdeling stedenbouwkundige vergunningen. Aan de hand van de kaart wordt een duidelijke procedure aangegeven naar archeologische advisering. Aanmaak:De laag is tot stand gekomen op basis van verschillende bronnen (bodemkaarten, ferrariskaarten) en terreinkennis." ;
+  dc:identifier "gis/archeologischeadvieskaart" ;
+  dc:issued "2017-10-23T13:40:18+0000" ;
+  dc:modified "2017-10-23T13:40:18+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart.json> .
+
+<http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart.json> ;
+  dc:title "gis/archeologischeadvieskaart" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/archeologischeadvieskaart" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:18+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/barbecues>
+  a dcat:Dataset ;
+  dc:title "gis/barbecues" ;
+  dc:description "In verschillende Antwerpse parken staan publieke barbecues, deze staan ter beschikking van de bewoners.De barbecues mogen elke dag gebruikt worden tussen 10 en 22 uur. Uiteraard is alleen de infrastructuur voorzien, voor houtskool, vlees, vis, .. moet de gebruiker zelf zorgen. De datalaag omvat al de locaties waar er publieke barbecues zijn opgesteld." ;
+  dc:identifier "gis/barbecues" ;
+  dc:issued "2017-10-23T13:40:18+0000" ;
+  dc:modified "2017-10-23T13:40:18+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/barbecues> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/barbecues.json> .
+
+<http://datasets7-o.antwerpen.be/gis/barbecues.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/barbecues> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/barbecues.json> ;
+  dc:title "gis/barbecues" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/barbecues" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:18+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/barriere>
+  a dcat:Dataset ;
+  dc:title "gis/barriere" ;
+  dc:description "Om de bereik- en de tekortzones te kunnen opmaken wordt rekening gehouden met belangrijke barrières (water, ring, snelweg, het spoor,…) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Dit betekent dat een buffer stopt aan de barrière en doorloopt aan een veilige oversteekplaats. In combinatie met de buffers van de veilige oversteekplaatsen zegt het ook iets over de mate van barrièrewerking: als er nog barrières zichtbaar zijn, dan wil dit zeggen dat zwakke weggebruikers een omweg moeten maken om te kunnen oversteken." ;
+  dc:identifier "gis/barriere" ;
+  dc:issued "2017-10-23T13:40:19+0000" ;
+  dc:modified "2017-10-23T13:40:19+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/barriere> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/barriere.json> .
+
+<http://datasets7-o.antwerpen.be/gis/barriere.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/barriere> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/barriere.json> ;
+  dc:title "gis/barriere" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/barriere" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:19+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail>
+  a dcat:Dataset ;
+  dc:title "gis/begraafplaatsdetail" ;
+  dc:description "Samenvatting:Localisatie van alle begraafplaatsen op het grondgebied van de stad Antwerpen op basis van de Grootschalige Basiskaart. Deze kaart is een verfijning van de Groene Open Ruimte kaart. Doel:Deze geolaag geeft de exacte locatie van de begraafplaatsen weer en kan gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid, .. Aanmaak:dwg tekeningen werden in ArcGis geimporteerd en m.b.v. de gbk werden de contouren ingetekend." ;
+  dc:identifier "gis/begraafplaatsdetail" ;
+  dc:issued "2017-10-23T13:40:20+0000" ;
+  dc:modified "2017-10-23T13:40:20+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail.json> .
+
+<http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail.json> ;
+  dc:title "gis/begraafplaatsdetail" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/begraafplaatsdetail" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:20+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht>
+  a dcat:Dataset ;
+  dc:title "gis/begraafplaatsoverzicht" ;
+  dc:description "Samenvatting:Localisatie van alle begraafplaatsen op het grondgebied van de stad Antwerpen op basis van de Grootschalige Basiskaart. Deze kaart is een verfijning van de Groene Open Ruimte kaart. Doel:Deze geolaag geeft de exacte locatie van de begraafplaatsen weer en kan gebruikt worden in functie van ruimtelijke analyses in combinatie met andere informatie: spreiding, omgevingsanalyses, bereikbaarheid, .. Aanmaak:dwg tekeningen werden in ArcGis geimporteerd en m.b.v. de gbk werden de contouren ingetekend." ;
+  dc:identifier "gis/begraafplaatsoverzicht" ;
+  dc:issued "2017-10-23T13:40:20+0000" ;
+  dc:modified "2017-10-23T13:40:20+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht.json> .
+
+<http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht.json> ;
+  dc:title "gis/begraafplaatsoverzicht" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/begraafplaatsoverzicht" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:20+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt>
+  a dcat:Dataset ;
+  dc:title "gis/bereikbasisonderwijsbuurt" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikbasisonderwijsbuurt" ;
+  dc:issued "2017-10-23T13:40:21+0000" ;
+  dc:modified "2017-10-23T13:40:21+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt.json> ;
+  dc:title "gis/bereikbasisonderwijsbuurt" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikbasisonderwijsbuurt" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:21+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel>
+  a dcat:Dataset ;
+  dc:title "gis/bereikbibwijkstadsdeel" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikbibwijkstadsdeel" ;
+  dc:issued "2017-10-23T13:40:21+0000" ;
+  dc:modified "2017-10-23T13:40:21+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel.json> ;
+  dc:title "gis/bereikbibwijkstadsdeel" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikbibwijkstadsdeel" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:21+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte>
+  a dcat:Dataset ;
+  dc:title "gis/bereikbuurtopenruimte" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor,…) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikbuurtopenruimte" ;
+  dc:issued "2017-10-23T13:40:22+0000" ;
+  dc:modified "2017-10-23T13:40:22+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte.json> ;
+  dc:title "gis/bereikbuurtopenruimte" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikbuurtopenruimte" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:22+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen>
+  a dcat:Dataset ;
+  dc:title "gis/bereikbuurtgroen" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdendmet belangrijke barrières (water, ring, snelweg, het spoor,…) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikbuurtgroen" ;
+  dc:issued "2017-10-23T13:40:22+0000" ;
+  dc:modified "2017-10-23T13:40:22+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen.json> ;
+  dc:title "gis/bereikbuurtgroen" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikbuurtgroen" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:22+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt>
+  a dcat:Dataset ;
+  dc:title "gis/bereikbuurtsportbuurt" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikbuurtsportbuurt" ;
+  dc:issued "2017-10-23T13:40:23+0000" ;
+  dc:modified "2017-10-23T13:40:23+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt.json> ;
+  dc:title "gis/bereikbuurtsportbuurt" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikbuurtsportbuurt" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:23+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel>
+  a dcat:Dataset ;
+  dc:title "gis/bereikcultuurcentrastadsdeel" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikcultuurcentrastadsdeel" ;
+  dc:issued "2017-10-23T13:40:23+0000" ;
+  dc:modified "2017-10-23T13:40:23+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel.json> ;
+  dc:title "gis/bereikcultuurcentrastadsdeel" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikcultuurcentrastadsdeel" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:23+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk>
+  a dcat:Dataset ;
+  dc:title "gis/bereikdienstencentrumwijk" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikdienstencentrumwijk" ;
+  dc:issued "2017-10-23T13:40:23+0000" ;
+  dc:modified "2017-10-23T13:40:23+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk.json> ;
+  dc:title "gis/bereikdienstencentrumwijk" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikdienstencentrumwijk" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:23+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel>
+  a dcat:Dataset ;
+  dc:title "gis/bereikdistrictsstadskantoorstadsdeel" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor,…) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikdistrictsstadskantoorstadsdeel" ;
+  dc:issued "2017-10-23T13:40:24+0000" ;
+  dc:modified "2017-10-23T13:40:24+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel.json> ;
+  dc:title "gis/bereikdistrictsstadskantoorstadsdeel" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikdistrictsstadskantoorstadsdeel" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:24+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel>
+  a dcat:Dataset ;
+  dc:title "gis/bereikdkobeeldstadsdeel" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikdkobeeldstadsdeel" ;
+  dc:issued "2017-10-23T13:40:24+0000" ;
+  dc:modified "2017-10-23T13:40:24+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel.json> ;
+  dc:title "gis/bereikdkobeeldstadsdeel" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikdkobeeldstadsdeel" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:24+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel>
+  a dcat:Dataset ;
+  dc:title "gis/bereikdkomuziekstadsdeel" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikdkomuziekstadsdeel" ;
+  dc:issued "2017-10-23T13:40:24+0000" ;
+  dc:modified "2017-10-23T13:40:24+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel.json> ;
+  dc:title "gis/bereikdkomuziekstadsdeel" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikdkomuziekstadsdeel" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:24+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel>
+  a dcat:Dataset ;
+  dc:title "gis/bereikfeestzaalstadsdeel" ;
+  dc:description "De voorziening kent een bepaald bereik op basis van loopafstand, rekening houdend met belangrijke barrières (water, ring, snelweg, het spoor, ...) en veilige oversteekplaatsen voor zwakke weggebruikers (tunnels, bruggen, zebrapaden met verkeerslichten). Een buurt- en wijkvoorziening krijgt een loopafstand van resp. 400 meter en 800 meter (resp. 5 en 10 min. wandelen). Voorzieningen die op stadsdeel (district of postcode) functioneren, hebben een bereik van 1600 meter (20 min. wandelen of 8 min. fietsen). In combinatie met de tekortzone geeft deze laag een beeld van de ruimtelijke spreiding van deze voorziening. Het beleid kan hiermee een evenwichtige ruimtelijke spreiding van de voorziening op basis van wandelafstand plannen." ;
+  dc:identifier "gis/bereikfeestzaalstadsdeel" ;
+  dc:issued "2017-10-23T13:40:25+0000" ;
+  dc:modified "2017-10-23T13:40:25+0000" ;
+  dcat:landingPage <http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel> ;
+  dc:publisher <http://opendata.antwerpen.be> ;
+  dcat:distribution <http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel.json> .
+
+<http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel.json>
+  a dcat:Distribution ;
+  dcat:accessURL <http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel> ;
+  dcat:downloadURL <http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel.json> ;
+  dc:title "gis/bereikfeestzaalstadsdeel" ;
+  dc:description "A json feed of http://datasets7-o.antwerpen.be/gis/bereikfeestzaalstadsdeel" ;
+  dcat:mediaType "application/json" ;
+  dc:issued "2017-10-23T13:40:25+0000" ;
+  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/licences_cc-zero1.0.html> .
