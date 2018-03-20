@@ -6,7 +6,6 @@
 [geopunt4Qgis]()
 
   * <a href="index.html#!README_NL.md" ><img src="images/geopuntSmal.png" /> Over (nederlands)</a>  
-  * <a href="index.html#!README.md" ><img src="images/geopuntSmal.png" /> About (english)</a>
   * # functies:
   * <a href="index.html#!geopuntAddress.md" ><img src="images/geopuntAddressSmall.png" /> Zoek een Adres</a> 
   * <a href="index.html#!geopuntReverse.md" ><img src="images/geopuntReverseSmall.png" /> Prik een Adres op kaart</a>
